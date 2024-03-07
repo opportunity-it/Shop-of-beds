@@ -38,6 +38,19 @@ a {
     color: var(--secondary-etxt-color);
 }
 
+.header .work-hours {
+    color: var(--secondary-etxt-color);
+}
+
 .header-tel {
     color: var(--main-text-color);
+}
+
+
+.icons-list .icons-link {
+    color: var(--secondary-etxt-color);
+}
+
+.species-list .species-link {
+    color: var(--secondary-etxt-color);
 }
