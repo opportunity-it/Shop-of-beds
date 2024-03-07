@@ -54,3 +54,12 @@ a {
 .species-list .species-link {
     color: var(--secondary-etxt-color);
 }
+
+/* СТИЛІ ДЛЯ "ПОПУЛЯРНІ КАТЕГОРІЇ" */
+.popular-categories .title-desc {
+    color: var(--main-text-color);
+}
+
+.popular-categories .text-amount {
+    color: #B1B1B1;
+}
