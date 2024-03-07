@@ -1,0 +1,43 @@
+/* основний колір тексту: #2B2929 */
+/* вторинний колір тексту: #535353 */
+/* колір-акцент: #FFBC57 */
+/* білий колір тексту: #FFFFFF */
+/* основний колір фону: #F8F8F8 */
+
+:root {
+    --main-text-color: #2B2929;
+    --secondary-etxt-color: #535353;
+    --white-text-color: #FFFFFF;
+    --primary-bg-color: #F8F8F8;
+    --accent-color: #FFBC57;
+}
+
+body {
+    color: #2B2929;
+    background-color: var(--primary-bg-color);
+}
+
+.list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-title {
+    color: var(--main-text-color);
+}
+
+/* СТИЛІ ДЛЯ ХЕДЕРА  */
+.header .link-about {
+    color: var(--secondary-etxt-color);
+}
+
+.help-consul {
+    color: var(--secondary-etxt-color);
+}
+
+.header-tel {
+    color: var(--main-text-color);
+}
