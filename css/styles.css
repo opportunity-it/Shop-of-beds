@@ -65,7 +65,7 @@ a {
 }
 
 /* СТИЛІ ДЛЯ НАЙПОПУЛЯРНІШІ ТОВАРИ */
-.popular-products .view-all {
+.view-all {
     color: var(--accent-color);
 }
 
@@ -79,4 +79,9 @@ a {
 
 .past-price {
     color: #E03D3D;
+}
+
+/* СТИЛІ ДЛЯ АКЦІЇ */
+.view-all {
+    color: var(--accent-color);
 }
