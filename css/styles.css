@@ -63,3 +63,20 @@ a {
 .popular-categories .text-amount {
     color: #B1B1B1;
 }
+
+/* СТИЛІ ДЛЯ НАЙПОПУЛЯРНІШІ ТОВАРИ */
+.popular-products .view-all {
+    color: var(--accent-color);
+}
+
+.popular-products .size {
+    color: var(--secondary-etxt-color);
+}
+
+.link-title {
+    color: var(--main-text-color);
+}
+
+.past-price {
+    color: #E03D3D;
+}
