@@ -38,6 +38,10 @@ a {
     color: var(--secondary-etxt-color);
 }
 
+.header-bg {
+    background-color: var(--white-text-color);
+}
+
 .header .work-hours {
     color: var(--secondary-etxt-color);
 }
@@ -56,7 +60,7 @@ a {
 }
 
 /* СТИЛІ ДЛЯ "ПОПУЛЯРНІ КАТЕГОРІЇ" */
-.popular-categories .title-desc {
+.popular-categories .title-descr {
     color: var(--main-text-color);
 }
 
@@ -64,7 +68,7 @@ a {
     color: #B1B1B1;
 }
 
-/* СТИЛІ ДЛЯ НАЙПОПУЛЯРНІШІ ТОВАРИ */
+/* СТИЛІ ДЛЯ "НАЙПОПУЛЯРНІШІ ТОВАРИ" */
 .view-all {
     color: var(--accent-color);
 }
@@ -81,7 +85,80 @@ a {
     color: #E03D3D;
 }
 
-/* СТИЛІ ДЛЯ АКЦІЇ */
+/* СТИЛІ ДЛЯ "АКЦІЇ" */
 .view-all {
     color: var(--accent-color);
+}
+
+/* СТИЛІ ДЛЯ "ОСТАННІ ВІДГУКИ" */
+.last-reviews {
+    background-color: #E9E9E9;
+}
+
+.rating {
+    color: var(--accent-color);
+}
+
+.count-rating {
+    color: var(--secondary-etxt-color);
+}
+
+.all-reviews {
+    color: var(--secondary-etxt-color);
+}
+
+.reviews-descr {
+    color: var(--secondary-etxt-color);
+}
+
+.reviews-link {
+    color: var(--secondary-etxt-color);
+}
+
+/* СТИЛІ ДЛЯ "СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ" */
+.read-blog {
+    color: var(--accent-color);
+}
+
+.articles-news .link-detail {
+    color: var(--accent-color);
+}
+
+/* СТИЛІ ДЛЯ "ПЕРЕВАГИ" */
+.about {
+    background-color: var(--white-text-color);
+}
+
+/* СТИЛІ ДЛЯ ФУТЕРА */
+.footer {
+    background-color: var(--main-text-color);
+}
+
+.footer-text,
+.footer-title {
+    color: var(--white-text-color);
+}
+
+.footer-link {
+    color: var(--primary-bg-color);
+}
+
+.footer-number {
+    color: var(--white-text-color);
+}
+
+.footer-call {
+    color: var(--accent-color);
+}
+
+.footer-map {
+    color: var(--white-text-color);
+}
+
+.footer-work {
+    color: var(--white-text-color);
+}
+
+.footer .copyright {
+    color: #B1B1B1;
 }
