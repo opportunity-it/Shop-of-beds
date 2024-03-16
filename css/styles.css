@@ -49,7 +49,8 @@ h3 {
     font-size: 40px;
     /* font-weight: 600; */
     line-height: 1.2;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
 
     color: var(--main-text-color);
 }
@@ -89,6 +90,8 @@ h3 {
 }
 
 .help-consul {
+    margin-top: 0;
+    margin-bottom: 0;
     line-height: 1.9;
 
     color: var(--secondary-etxt-color);
@@ -107,6 +110,8 @@ h3 {
 }
 
 .header .work-hours {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 13px;
     font-weight: 300;
     line-height: 1.7;
@@ -209,9 +214,12 @@ h3 {
 }
 
 /* СТИЛІ ДЛЯ "АКЦІЇ" */
-
 .shares {
     margin-bottom: 70px;
+}
+
+.shares .title {
+    margin-bottom: 46px;
 }
 
 /* СТИЛІ ДЛЯ "ОСТАННІ ВІДГУКИ" */
@@ -311,11 +319,14 @@ h3 {
 
 /* СТИЛІ ДЛЯ "ПРО:ПЕРЕВАГИ" */
 .about {
+    padding-top: 70px;
     padding-bottom: 40px;
     background-color: var(--white-text-color);
 }
 
 .about .after-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 40px;
     /* font-weight: 600; */
     line-height: 1.2;
@@ -324,6 +335,7 @@ h3 {
 }
 
 .about-text {
+    margin-bottom: 70px;
     line-height: 30px;
 
     color: var(--main-text-color);
