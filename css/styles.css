@@ -315,8 +315,16 @@ h3 {
 }
 
 /* СТИЛІ ДЛЯ "АКЦІЇ" */
-.shares .title {
+.title-shares {
     margin-bottom: 46px;
+}
+
+.list-shares {
+    display: flex;
+}
+
+.item-shares:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* СТИЛІ ДЛЯ "ОСТАННІ ВІДГУКИ" */
@@ -326,8 +334,23 @@ h3 {
     background-color: #E9E9E9;
 }
 
+.last-reviews .logo-rating {
+    display: flex;
+}
+
+.logo-footer {
+    margin-right: 30px;
+}
+
+.wrapper-rating {
+    margin-bottom: 40px;
+    max-width: 300px;
+}
+
 .title-rating {
     font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
     /* font-weight: 600; */
     /* line-height: 1.4; */
 
@@ -335,10 +358,14 @@ h3 {
 }
 
 .rating {
+    margin-top: 0;
+    margin-bottom: 0;
     color: var(--accent-color);
 }
 
 .count-rating {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 13px;
     font-weight: 300;
     line-height: 1.7;
@@ -348,6 +375,7 @@ h3 {
 
 .write-review {
     padding: 13px 13.5px;
+    margin-right: 30px;
     min-width: 210px;
 }
 
@@ -359,20 +387,46 @@ h3 {
     color: var(--secondary-etxt-color);
 }
 
-.reviews-name {
+.list-reviews {
+    display: flex;
+}
+
+.item-reviews {
+    padding: 30px;
+    width: 450px;
+
+    border-radius: 8px;
+    border: 1px solid #E3E2E2;
+    background: #FFF;
+    box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
+}
+
+.item-reviews>.name-date {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.name-reviews {
+    margin-bottom: 0;
+    margin-top: 0;
+    max-width: 208px;
     font-size: 17px;
+    font-weight: 400;
     /* line-height: 1.4; */
 
     color: var(--main-text-color);
 }
 
-.reviews-descr {
-    line-height: 1.9;
+.descr-reviews {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 40;
+    line-height: 1.87;
 
     color: var(--secondary-etxt-color);
 }
 
-.reviews-link {
+.link-reviews {
     font-size: 20px;
     /* font-weight: 600; */
     /* line-height: 1.4; */
@@ -380,9 +434,11 @@ h3 {
     color: var(--secondary-etxt-color);
 }
 
-.reviews-date {
+.date-reviews {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: auto;
+    font-weight: 400;
 }
 
 /* СТИЛІ ДЛЯ "СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ" */
