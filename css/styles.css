@@ -338,7 +338,7 @@ h3 {
     display: flex;
 }
 
-.logo-footer {
+.logo-reviews {
     margin-right: 30px;
 }
 
@@ -442,6 +442,27 @@ h3 {
 }
 
 /* СТИЛІ ДЛЯ "СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ" */
+.list-articles {
+    display: flex;
+}
+
+.item-articles {
+    width: 410px;
+    /* width: calc((100% - 60px) / 3); */
+
+    border-radius: 8px;
+    /* border: 1px solid #E3E2E2; */
+    border-left: 1px solid #E3E2E2;
+    border-bottom: 1px solid #E3E2E2;
+    border-right: 1px solid #E3E2E2;
+    background-color: var(--white-text-color);
+    box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
+}
+
+.item-articles+.item-articles {
+    margin-left: 30px;
+}
+
 .read-blog {
     font-size: 19px;
     /* font-weight: 600; */
@@ -450,7 +471,17 @@ h3 {
     color: var(--accent-color);
 }
 
+.title-detail {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+}
+
 .news-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 26px;
     /* font-weight: 600; */
     line-height: 1.3;
@@ -467,13 +498,16 @@ h3 {
 
 /* СТИЛІ ДЛЯ "ПРО:ПЕРЕВАГИ" */
 .about {
+    margin-bottom: 0;
     padding-top: 70px;
     padding-bottom: 40px;
     background-color: var(--white-text-color);
 }
 
-.about.no-margin {
-    margin-bottom: 0;
+.wrapper-description {
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about .after-title {
@@ -482,18 +516,33 @@ h3 {
     font-size: 40px;
     /* font-weight: 600; */
     line-height: 1.2;
+    text-align: center;
 
     color: var(--main-text-color);
 }
 
 .about-text {
     margin-bottom: 70px;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 1.87;
 
     color: var(--main-text-color);
 }
 
 /* "ПЕРЕВАГИ" */
+.list-benefits {
+    display: flex;
+    align-items: center;
+}
+
+.item-benefits {
+    max-width: 200px;
+    margin-right: 30px;
+}
+
+.item-benefits:last-child {
+    margin-right: 0;
+}
 
 .benefits-text {
     margin-top: 0;
@@ -512,7 +561,22 @@ h3 {
     background-color: var(--main-text-color);
 }
 
+.footer .wrapper-footer {
+    display: flex;
+}
+
+.wrapper-item+.wrapper-item {
+    margin-left: 83px;
+}
+
+.wrapper-item>.link-logo {
+    display: block;
+    margin-bottom: 40px;
+}
+
 .footer-text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 17px;
     line-height: 24px;
 
@@ -520,6 +584,8 @@ h3 {
 }
 
 .footer-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 20px;
     /* font-weight: 600; */
     /* line-height: 1.4; */
@@ -529,7 +595,8 @@ h3 {
 
 .footer-link {
     font-size: 17px;
-    line-height: 24px;
+    font-weight: 400;
+    line-height: 1.41;
 
     color: var(--primary-bg-color);
 }
