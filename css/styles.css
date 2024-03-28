@@ -65,6 +65,7 @@ h3 {
     font-weight: 600;
     line-height: 1.26;
     display: inline-flex;
+    align-items: center;
 
     cursor: pointer;
     border-radius: 8px;
@@ -140,7 +141,7 @@ h3 {
     height: 24px;
     margin-right: 10px;
 
-    background-image: url("../images/catalog-menu.svg");
+    background-image: url("../images/header/catalog-menu.svg");
 }
 
 .header .work-hours {
@@ -399,7 +400,7 @@ h3 {
     height: 24px;
     margin-right: 15px;
 
-    background-image: url("../images/write-review-opt.svg");
+    background-image: url("../images/last-reviews/write-review-opt.svg");
 }
 
 .all-reviews {
