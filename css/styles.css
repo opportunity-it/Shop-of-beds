@@ -93,6 +93,11 @@ h3 {
     margin-bottom: 30px;
 }
 
+.header .about-help {
+    display: flex;
+    align-items: baseline;
+}
+
 .header .list-about {
     display: flex;
 }
@@ -102,10 +107,11 @@ h3 {
 }
 
 .header .link-about {
+    font-weight: 400;
     display: block;
     padding-top: 15px;
     padding-bottom: 15px;
-    line-height: 1.9;
+    line-height: 1.88;
 
     color: var(--secondary-etxt-color);
 }
@@ -115,12 +121,32 @@ h3 {
     color: var(--accent-color);
 }
 
+.wrapper-help {
+    margin-left: auto;
+    display: flex;
+}
+
 .help-consul {
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.9;
+    margin-right: 20px;
+    line-height: 1.88;
 
     color: var(--secondary-etxt-color);
+}
+
+.list-help {
+    display: flex;
+}
+
+.item-help+.item-help {
+    margin-left: 10px;
+}
+
+.icon-help {
+    width: 30px;
+    height: 30px;
 }
 
 .header-bg {
