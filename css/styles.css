@@ -147,6 +147,13 @@ h3 {
 .icon-help {
     width: 30px;
     height: 30px;
+    fill: currentColor;
+
+    transition: transform 500ms linear;
+}
+
+.icon-help:hover {
+    transform: scale(1.5);
 }
 
 .header-bg {
@@ -161,13 +168,21 @@ h3 {
     min-width: 145px;
 }
 
-.catalog::before {
-    content: "";
-    width: 24px;
-    height: 24px;
+.header .icon-catalog {
     margin-right: 10px;
+}
 
-    background-image: url("../images/header/catalog-menu.svg");
+.wrapper-hourstel {
+    display: flex;
+    align-items: center;
+}
+
+.header .icon-telephone {
+    margin-right: 10px;
+}
+
+.hours-tel {
+    margin-right: 10px;
 }
 
 .header .work-hours {
@@ -175,7 +190,7 @@ h3 {
     margin-bottom: 0;
     font-size: 13px;
     font-weight: 300;
-    line-height: 1.7;
+    line-height: 1.69;
 
     color: var(--secondary-etxt-color);
 }
@@ -186,6 +201,10 @@ h3 {
     /* line-height: 1.4; */
 
     color: var(--main-text-color);
+}
+
+.header .icon-obrane {
+    margin-right: 20px;
 }
 
 .list-wrapper {
