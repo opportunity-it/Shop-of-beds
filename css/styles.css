@@ -241,10 +241,21 @@ h3 {
     background-color: transparent;
 
     cursor: pointer;
+    color: var(--secondary-etxt-color);
+}
+
+.obrane-korzina:hover,
+.obrane-korzina:focus {
+    color: var(--accent-color);
 }
 
 .header .icon-obrane {
     margin-right: 20px;
+    fill: currentColor;
+}
+
+.header .korzina-header {
+    fill: currentColor;
 }
 
 .list-wrapper {
@@ -253,10 +264,6 @@ h3 {
 
 .icons-list {
     display: flex;
-}
-
-.icons-item {
-    display: inline-flex;
 }
 
 .icons-item:not(:last-child) {
@@ -278,11 +285,21 @@ h3 {
 
 .icons-list .icons-link,
 .species-list .species-link {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: block;
     font-size: 17px;
     /* font-weight: 600; */
     line-height: 1.26;
 
     color: var(--secondary-etxt-color);
+}
+
+.icons-list .icons-link:hover,
+.icons-list .icons-link:focus,
+.species-list .species-link:hover,
+.species-list .species-link:focus {
+    color: var(--accent-color);
 }
 
 .icons-link .icons-shares {
