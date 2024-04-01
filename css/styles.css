@@ -160,6 +160,11 @@ h3 {
     background-color: var(--white-text-color);
 }
 
+.header-middle {
+    display: flex;
+    align-items: center;
+}
+
 .catalog {
     padding-top: 11px;
     padding-bottom: 11px;
@@ -173,12 +178,20 @@ h3 {
 }
 
 .wrapper-hourstel {
+    padding: 0;
     display: flex;
     align-items: center;
+    border: none;
+
+    background-color: transparent;
+
 }
 
-.header .icon-telephone {
-    margin-right: 10px;
+.header .icon-button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .hours-tel {
@@ -203,6 +216,29 @@ h3 {
     color: var(--main-text-color);
 }
 
+.wrapper-hourstel:hover .icon-button,
+.wrapper-hourstel:hover .work-hours,
+.wrapper-hourstel:hover .header-tel {
+    color: var(--accent-color);
+}
+
+.wrapper-hourstel .icon-phone {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.wrapper-hourstel .arrow-down {
+    margin-right: 0;
+}
+
+.obrane-korzina {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
 .header .icon-obrane {
     margin-right: 20px;
 }
@@ -221,33 +257,6 @@ h3 {
 
 .icons-item:not(:last-child) {
     margin-right: 40px;
-}
-
-.icons-item:nth-child(1)::before {
-    content: "";
-    margin-right: 5px;
-    width: 24px;
-    height: 24px;
-
-    background-image: url("../images/header/зірка-опт.svg");
-}
-
-.icons-item:nth-child(2)::before {
-    content: "";
-    margin-right: 5px;
-    width: 24px;
-    height: 24px;
-
-    background-image: url("../images/header/розпродаж-опт.svg");
-}
-
-.icons-item:nth-child(3)::before {
-    content: "";
-    margin-right: 5px;
-    width: 24px;
-    height: 24px;
-
-    background-image: url("../images/header/кредит-опт.svg");
 }
 
 .species-list {
@@ -270,6 +279,12 @@ h3 {
     line-height: 1.26;
 
     color: var(--secondary-etxt-color);
+}
+
+.icons-link .icons-shares {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
 }
 
 /* СТИЛІ ДЛЯ "ГЕРОЙ" */
