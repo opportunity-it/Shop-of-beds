@@ -152,7 +152,8 @@ h3 {
     transition: transform 500ms linear;
 }
 
-.icon-help:hover {
+.icon-help:hover,
+.icon-help:focus {
     transform: scale(1.5);
 }
 
@@ -217,8 +218,11 @@ h3 {
 }
 
 .wrapper-hourstel:hover .icon-button,
+.wrapper-hourstel:focus .icon-button,
 .wrapper-hourstel:hover .work-hours,
-.wrapper-hourstel:hover .header-tel {
+.wrapper-hourstel:focus .work-hours,
+.wrapper-hourstel:hover .header-tel,
+.wrapper-hourstel:focus .header-tel {
     color: var(--accent-color);
 }
 
