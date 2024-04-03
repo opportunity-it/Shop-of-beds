@@ -35,6 +35,12 @@ h3 {
     font-weight: 600;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
 .container {
     width: 1320px;
     padding-left: 15px;
@@ -72,6 +78,21 @@ h3 {
     border: transparent;
     background-color: var(--accent-color);
     color: var(--white-text-color);
+}
+
+.no-margin {
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+
+.icon-large {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-small {
+    width: 24px;
+    height: 24px;
 }
 
 .visually-hidden {
@@ -140,13 +161,24 @@ h3 {
     display: flex;
 }
 
+.item-help {
+    width: 30px;
+    height: 30px;
+}
+
 .item-help+.item-help {
     margin-left: 10px;
 }
 
+.link-help {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 .icon-help {
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     fill: currentColor;
 
     transition: transform 500ms linear;
@@ -190,9 +222,16 @@ h3 {
 
 .header .icon-button {
     padding: 0;
+    margin-right: 10px;
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.wrapper-hourstel .icon-phone {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
 }
 
 .hours-tel {
@@ -226,11 +265,6 @@ h3 {
     color: var(--accent-color);
 }
 
-.wrapper-hourstel .icon-phone {
-    margin-right: 10px;
-    fill: currentColor;
-}
-
 .wrapper-hourstel .arrow-down {
     margin-right: 0;
 }
@@ -249,12 +283,19 @@ h3 {
     color: var(--accent-color);
 }
 
-.header .icon-obrane {
+.obrane-header {
     margin-right: 20px;
+}
+
+.header .icon-obrane {
+    width: 100%;
+    height: 100%;
     fill: currentColor;
 }
 
 .header .korzina-header {
+    width: 100%;
+    height: 100%;
     fill: currentColor;
 }
 
@@ -321,7 +362,6 @@ h3 {
     margin-bottom: 24px;
     /* width: 250px; */
     width: calc((100% - 40px) /5);
-    border: 1px solid gray;
 }
 
 .item-categories:nth-child(5n) {
@@ -332,23 +372,56 @@ h3 {
     margin-bottom: 0;
 }
 
+.link-categories {
+    position: relative;
+    display: block;
+
+    border-radius: 8px;
+    overflow: hidden;
+
+    background-color: var(--white-text-color);
+    box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
+}
+
 .popular-categories .description {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     /* font-weight: 600; */
     /* line-height: 1.4; */
 }
 
 .popular-categories .title-descr {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     color: var(--main-text-color);
 }
 
 .popular-categories .amount {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     color: #B1B1B1;
 }
 
-.img-categories {
-    background-color: pink;
+.button-categories {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+    color: transparent;
+}
+
+.icons-categories {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
 }
 
 /* СТИЛІ ДЛЯ "НАЙПОПУЛЯРНІШІ ТОВАРИ" */
@@ -362,19 +435,20 @@ h3 {
     margin-bottom: 40px;
 }
 
-.section-title.no-margin {
-    margin-bottom: 0;
-    margin-right: 30px;
-}
-
 .view-all {
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 19px;
+    display: inline-flex;
+    align-items: center;
     /* font-weight: 600; */
-    line-height: 1.3;
+    line-height: 1.26;
 
     color: var(--accent-color);
+}
+
+.icon-all {
+    margin-left: 10px;
 }
 
 .popular-products .list-products {
@@ -391,6 +465,7 @@ h3 {
     margin-bottom: 30px; */
     /* width: calc((100% - 90px) / 4); */
 
+    /* border: 1px solid #E3E2E2; */
     border: 1px solid black;
 }
 
@@ -402,49 +477,67 @@ h3 {
     margin-bottom: 0;
 } */
 
+.product-card {
+    display: block;
+    margin-bottom: 20px;
+}
+
 .popular-products .size {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-size: 13px;
     font-weight: 300;
-    line-height: 1.7;
+    line-height: 1.69;
 
     color: var(--secondary-etxt-color);
 }
 
 .link-title {
-    font-size: 19px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 17px;
     /* font-weight: 600; */
     line-height: 1.26;
 
     color: var(--main-text-color);
 }
 
+.link-title.add-height {
+    line-height: 2.52;
+}
+
 .in-stock {
+    margin-top: 0;
+    margin-bottom: 20px;
     font-size: 13px;
     font-weight: 300;
     line-height: 1.7;
     color: var(--main-text-color);
 }
 
-.in-stock::before {
-    content: "";
-    width: 24px;
-    height: 24px;
-    display: inline-block;
+.icon-checkgreen {
     margin-right: 5px;
     vertical-align: middle;
+}
 
-    background-image: url("../images/popular-products/in-stock-opt.svg");
+.prices-icons {
+    display: flex;
+    align-items: center;
 }
 
 .past-price {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.46;
     text-decoration-line: line-through;
 
     color: #E03D3D;
 }
 
 .current-price {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 20px;
     /* font-weight: 600; */
     /* line-height: 1.4; */
@@ -452,8 +545,52 @@ h3 {
     color: var(--main-text-color);
 }
 
+.icons-products {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.button-price {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.button-sire {
+    color: transparent;
+}
+
+.button-sire:hover,
+.button-sire:focus {
+    color: var(--accent-color);
+}
+
+.icon-sire {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
+.button-white {
+    color: #fff;
+}
+
+.button-white:hover,
+.button-white:focus {
+    color: #b1b1b1;
+}
+
+.icon-white {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+}
+
 /* СТИЛІ ДЛЯ "АКЦІЇ" */
-.title-shares {
+.title-wrapper.title-shares {
     margin-bottom: 46px;
 }
 
