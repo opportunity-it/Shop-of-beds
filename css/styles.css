@@ -198,6 +198,17 @@ img {
     align-items: center;
 }
 
+.header-middle>.link-header {
+    margin-right: 34px;
+    width: 250px;
+    height: 50px;
+}
+
+.link-header>.logo-header {
+    width: 100%;
+    height: 100%;
+}
+
 .catalog {
     padding-top: 11px;
     padding-bottom: 11px;
@@ -627,8 +638,15 @@ img {
     display: flex;
 }
 
-.logo-reviews {
+.logo-rating>.logo-link {
     margin-right: 30px;
+    width: 80px;
+    height: 80px;
+}
+
+.logo-rating .logo-reviews {
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper-rating {
@@ -965,8 +983,15 @@ img {
 } */
 
 .wrapper-item>.link-logo {
-    display: block;
     margin-bottom: 40px;
+    width: 250px;
+    height: 50px;
+    display: block;
+}
+
+.link-logo>.icon-footer {
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper-item .item-footer:not(:last-child) {
