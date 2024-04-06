@@ -1088,6 +1088,11 @@ img {
     color: var(--primary-bg-color);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
+
 /* ADDRESS */
 .address-wrapper {
     display: flex;
