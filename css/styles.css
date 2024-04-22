@@ -236,6 +236,24 @@ img {
     margin-right: 10px;
 }
 
+.form-input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 280px;
+
+    border-radius: 8px;
+    border: 1px solid #B1B1B1;
+    background-color: var(--white-text-color);
+}
+
+.form-input::placeholder {
+    line-height: 1.87;
+
+    color: #B1B1B1;
+    ;
+}
+
 .main-feedback {
     position: relative;
     padding: 0;
@@ -339,6 +357,12 @@ img {
     margin-bottom: 0;
 }
 
+.header-buttons {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
 .obrane-korzina {
     padding: 0;
     border: none;
@@ -353,10 +377,6 @@ img {
 .obrane-korzina:hover,
 .obrane-korzina:focus {
     color: var(--accent-color);
-}
-
-.obrane-header {
-    margin-right: 20px;
 }
 
 .header .icon-obrane {
