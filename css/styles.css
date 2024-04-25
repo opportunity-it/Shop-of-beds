@@ -251,7 +251,6 @@ img {
     line-height: 1.87;
 
     color: #B1B1B1;
-    ;
 }
 
 .main-feedback {
@@ -942,8 +941,8 @@ img {
     width: 410px;
     /* width: calc((100% - 60px) / 3); */
 
-    /* border-radius: 8px; */
-    /* border: 1px solid #E3E2E2; */
+    border-radius: 8px;
+    border: 1px solid #E3E2E2;
     /* border-left: 1px solid #e3e2e2;
     border-bottom: 1px solid #e3e2e2;
     border-right: 1px solid #e3e2e2; */
@@ -953,6 +952,11 @@ img {
 
 .item-articles+.item-articles {
     margin-left: 30px;
+}
+
+.wrapper-img {
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .read-blog {
@@ -971,9 +975,9 @@ img {
     padding-right: 30px;
     padding-bottom: 20px;
 
-    border-left: 1px solid #e3e2e2;
+    /* border-left: 1px solid #e3e2e2;
     border-bottom: 1px solid #e3e2e2;
-    border-right: 1px solid #e3e2e2;
+    border-right: 1px solid #e3e2e2; */
 }
 
 .news-title {
