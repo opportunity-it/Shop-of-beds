@@ -280,9 +280,9 @@ img {
     fill: currentColor;
 }
 
-/* .form-input:focus .icon-search {
+.form-input:focus+.button-search {
     color: var(--accent-color);
-} */
+}
 
 /* ПРОДОВЖ. СТИЛІ ДЛЯ ХЕДЕРА */
 .main-feedback {
@@ -293,15 +293,11 @@ img {
     z-index: 1;
 
     border: none;
-    border-radius: 8px;
 
     background-color: var(--white-text-color);
 }
 
 .main-feedback:hover {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -335,7 +331,6 @@ img {
 
 .header-tel {
     font-size: 19px;
-    /* line-height: 2.26; */
 
     color: var(--main-text-color);
 }
@@ -364,18 +359,22 @@ img {
     padding-left: 60px;
     width: 100%;
 
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
     background-color: var(--white-text-color);
 
-    /* display: block; */
-    display: none;
+    transform: scaleY(0);
+    transform-origin: top center;
+    opacity: 0;
+
+    transition: transform 250ms linear, opacity 250ms linear;
 }
 
-.main-feedback:hover .feedback {
+.main-feedback:hover .feedback,
+.main-feedback:focus .feedback {
     padding-bottom: 20px;
-    display: block;
     line-height: 2.26;
+
+    transform: scaleY(100%);
+    opacity: 1;
 }
 
 .header-tel.useful {
