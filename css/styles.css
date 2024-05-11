@@ -253,6 +253,13 @@ img {
     border-radius: 8px;
     border: 1px solid #B1B1B1;
     background-color: var(--white-text-color);
+    outline: transparent;
+
+    transition: border 250ms linear;
+}
+
+.form-input:focus {
+    border: 1px solid var(--accent-color);
 }
 
 .form-input::placeholder {
@@ -274,6 +281,8 @@ img {
     transform: translateY(-50%);
 
     color: #535353;
+
+    transition: color 250ms linear;
 }
 
 .icon-search {
