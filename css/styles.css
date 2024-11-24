@@ -128,15 +128,15 @@ img {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width:1319px) {
-  .header-container{
-  display: flex;
-}
-}
-
-.header .about-help {
+.about-help {
   display: flex;
   align-items: baseline;
+}
+
+@media screen and (max-width:1319px) {
+  .about-help{
+    display: none;
+  }
 }
 
 .burger-button {
@@ -157,12 +157,6 @@ img {
 
 .list-about {
   display: flex;
-}
-
-@media screen and (max-width:1319px) {
-  .list-about{
-    display: none;
-  }
 }
 
 .item-about + .item-about {
@@ -189,12 +183,6 @@ img {
 .wrapper-help {
   margin-left: auto;
   display: flex;
-}
-
-@media screen and (max-width:1319px) {
-  .wrapper-help{
-    display: none;
-  }
 }
 
 .help-consul {
