@@ -128,15 +128,15 @@ img {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width:1319px) {
+  .header-container{
+  display: flex;
+}
+}
+
 .header .about-help {
   display: flex;
   align-items: baseline;
-}
-
-@media screen and (max-width:1319px) {
-    .header .about-help{
-        display: none;
-    }
 }
 
 .burger-button {
@@ -155,8 +155,14 @@ img {
   height: 100%;
 }
 
-.header .list-about {
+.list-about {
   display: flex;
+}
+
+@media screen and (max-width:1319px) {
+  .list-about{
+    display: none;
+  }
 }
 
 .item-about + .item-about {
@@ -183,6 +189,12 @@ img {
 .wrapper-help {
   margin-left: auto;
   display: flex;
+}
+
+@media screen and (max-width:1319px) {
+  .wrapper-help{
+    display: none;
+  }
 }
 
 .help-consul {
@@ -492,10 +504,7 @@ img {
 
 .icons-list {
   display: flex;
-}
-
-.icons-item:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .species-list {
