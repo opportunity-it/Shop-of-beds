@@ -128,6 +128,10 @@ img {
   margin-bottom: 30px;
 }
 
+.header-container{
+  position: relative;
+}
+
 .about-help {
   display: flex;
   align-items: baseline;
@@ -238,8 +242,24 @@ img {
 
 @media screen and (max-width:1319px) {
  .header-middle{
+padding-top: 20px;
+
        flex-wrap: wrap;
+       row-gap: 30px;
   }
+}
+
+.header-middle::after{
+  position: absolute;
+  top:90px;
+  left: 0;
+
+  content: " ";
+  
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color:#F8F8F8;
 }
 
 .header-middle > .link-header {
@@ -285,6 +305,11 @@ margin-left: auto;
   width: 100%;
   height: 100%;
   fill: #535353;
+}
+
+.button-mobile:hover >.icon-phone{
+  fill: var(--accent-color);
+  stroke-width: var(--accent-color);
 }
 
 .catalog {
@@ -498,13 +523,7 @@ margin-left: auto;
   color: var(--accent-color);
 }
 
-.header .icon-obrane {
-  width: 100%;
-  height: 100%;
-  fill: currentColor;
-}
-
-.header .korzina-header {
+.header .icon-header {
   width: 100%;
   height: 100%;
   fill: currentColor;
