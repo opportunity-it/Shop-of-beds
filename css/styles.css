@@ -618,6 +618,17 @@ margin-left: auto;
 }
 
 /* СТИЛІ ДЛЯ "ГЕРОЙ" */
+.wrapper-slider{
+  position: relative;
+}
+
+.icon-slider{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: pink;
+}
 
 /* СТИЛІ ДЛЯ "ПОПУЛЯРНІ КАТЕГОРІЇ" */
 .popular-categories .list-categories {

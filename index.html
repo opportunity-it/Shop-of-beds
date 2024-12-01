@@ -23,7 +23,7 @@
 
   <body>
     <!-- ХЕДЕР -->
-    <header class="header">
+    <!-- <header class="header">
       <nav class="container header-container">
         <div class="about-help">
                    <ul class="list list-about">
@@ -86,9 +86,9 @@
               </li>
             </ul>
           </div>
-        </div>
-        <!-- ДАЛІ БУДЕ ФОРМА- ЯК ДОЙДУ ДО ФОРМ - ТОДІ ЗРОБЛЮ -->
-        <div class="header-bg">
+        </div> -->
+    <!-- ДАЛІ БУДЕ ФОРМА- ЯК ДОЙДУ ДО ФОРМ - ТОДІ ЗРОБЛЮ -->
+    <!-- <div class="header-bg">
                    <div class="header-middle">
                       <button type="button" class="burger-button">
             <svg class="burger-icon">
@@ -123,9 +123,9 @@
                   <use href="./images/sprite.svg#search"></use>
                 </svg>
               </button>
-            </form>
-            <!-- ДАЛЫ ФОРМА-ПОШУК ТОВАРЫВ -->
-            <div class="main-feedback">
+            </form> -->
+    <!-- ДАЛЫ ФОРМА-ПОШУК ТОВАРЫВ -->
+    <!-- <div class="main-feedback">
               <button type="button" class="icon-large icon-button">
                 <svg class="icon-phone">
                   <use href="./images/sprite.svg#telephone"></use>
@@ -222,20 +222,56 @@
           </div>
         </div>
       </nav>
-    </header>
+    </header> -->
     <main>
       <!-- ГЕРОЙ -->
-      <!-- <section class="section slider">
+      <section class="section slider">
         <div class="container">
           <h1 class="visually-hidden">Ліжко хюпер</h1>
-          <img
-            src="./images/slider/slider-shares.jpg"
-            alt="слайдер"
-            width="1290"
-            height="420"
-          />
+          <div class="wrapper-slider">
+            <picture>
+              <!-- sektop  -->
+              <source
+                media="(min-width:1320px)"
+                srcset="
+                  ./images/slider/slider-shares.jpg    1x,
+                  ./images/slider/slider-shares-2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width:1320px)"
+                srcset="
+                  ./images/slider/slider-shares.webp    1x,
+                  ./images/slider/slider-shares-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <!-- mobile  -->
+              <source
+                media="(max-width:1319px)"
+                srcset="
+                  ./images/slider/slide-mob.jpg    1x,
+                  ./images/slider/slide-mob-2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:1319px)"
+                srcset="
+                  ./images/slider/slide-mob.webp    1x,
+                  ./images/slider/slide-mob-2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <img src="./images/slider/slide-mob.jpg" alt="слайдер" />
+            </picture>
+            <svg class="icon-slider" width="115" height="15">
+              <use href="./images/sprite.svg#points-mob"></use>
+            </svg>
+          </div>
         </div>
-      </section> -->
+      </section>
       <!-- ПОПУЛЯРНІ КАТЕГОРІЇ -->
       <!-- <section class="section popular-categories">
         <div class="container">
