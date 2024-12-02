@@ -618,6 +618,10 @@ margin-left: auto;
 }
 
 /* СТИЛІ ДЛЯ "ГЕРОЙ" */
+.section.slider{
+  margin-bottom: 60px;
+}
+
 .wrapper-slider{
   position: relative;
 }
