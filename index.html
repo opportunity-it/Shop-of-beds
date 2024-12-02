@@ -225,13 +225,13 @@
     </header> -->
     <main>
       <!-- ГЕРОЙ -->
-      <section class="section slider">
+      <!-- <section class="section slider">
         <div class="container">
           <h1 class="visually-hidden">Ліжко хюпер</h1>
           <div class="wrapper-slider">
-            <picture>
+            <picture> -->
               <!-- sektop  -->
-              <source
+              <!-- <source
                 media="(min-width:1320px)"
                 srcset="
                   ./images/slider/slider-shares.jpg    1x,
@@ -246,9 +246,9 @@
                   ./images/slider/slider-shares-2x.webp 2x
                 "
                 type="image/webp"
-              />
+              /> -->
               <!-- mobile  -->
-              <source
+              <!-- <source
                 media="(max-width:1319px)"
                 srcset="
                   ./images/slider/slide-mob.jpg    1x,
@@ -271,19 +271,29 @@
             </svg>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- ПОПУЛЯРНІ КАТЕГОРІЇ -->
-      <!-- <section class="section popular-categories">
+       <section class="section popular-categories">
         <div class="container">
           <h2 class="section-title">Популярні категорії</h2>
           <ul class="list list-categories">
             <li class="item-categories">
-              <img
-                src="./images/popular-categoris/beds.png"
+                              <picture>
+                <!-- desktop  -->
+                <source
+                media="(min-width:1320px)"
+                srcset="./images/popular-categoris/beds-mobile.png 1x, ./images/popular-categoris/beds-mobile-2x.png 2x"
+                type="image/png">
+                <source
+                media="(min-width:1320px)"
+                srcset="./images/popular-categoris/">
+                   <img
+                src="./images/popular-categoris/beds-mobile.png"
                 alt="ліжка"
                 class="img-categories"
               />
-              <h3 class="description title-descr">Ліжка</h3>
+              </picture>
+            <h3 class="description title-descr">Ліжка</h3>
               <p class="description amount">54</p>
               <a class="icon-large link-categories">
                 <svg class="icons-categories">
@@ -419,7 +429,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section> 
       <!-- НАЙПОПУЛЯРНІШІ ТОВАРИ -->
       <!-- <section class="section popular-products">
         <div class="container">
