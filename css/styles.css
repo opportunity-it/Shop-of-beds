@@ -642,6 +642,10 @@ margin-left: auto;
 }
 
 /* СТИЛІ ДЛЯ "ПОПУЛЯРНІ КАТЕГОРІЇ" */
+.popular-categories{
+  margin-bottom: 80px;
+}
+
 .popular-categories .list-categories {
   display: flex;
   flex-wrap: wrap;
@@ -676,8 +680,6 @@ margin-left: auto;
 
 @media screen and (min-width:1319px) {
   .item-categories{
-
-
       width: calc((100% - 40px) / 5);
   }
 }
@@ -715,6 +717,12 @@ margin-left: auto;
   .popular-categories .title-descr{
   left: 20px;
   }
+}
+
+.furniture-walls{
+    display: block;
+
+    color: #c0b0b0;
 }
 
 .popular-categories .amount {
