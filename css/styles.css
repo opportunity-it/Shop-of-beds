@@ -161,6 +161,12 @@ line-height: calc(40/30);
   cursor: pointer;
 }
 
+@media screen and (min-width:1320px) {
+  .burger-button{
+    display: none;
+  }
+}
+
 .burger-icon {
   width: 100%;
   height: 100%;
@@ -269,6 +275,7 @@ margin-bottom: 40px;
   width: 100%;
   height: 2px;
   background-color:#F8F8F8;
+  background-color: red;
 }
 
 .header-middle > .link-header {
@@ -639,6 +646,12 @@ margin-left: auto;
   left: 50%;
   transform: translate(-50%);
   background-color: pink;
+}
+
+@media screen and (min-width:1320px) {
+  .icon-slider{
+    display: none;
+  }
 }
 
 /* СТИЛІ ДЛЯ "ПОПУЛЯРНІ КАТЕГОРІЇ" */

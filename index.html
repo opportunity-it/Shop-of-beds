@@ -23,10 +23,10 @@
 
   <body>
     <!-- ХЕДЕР -->
-    <!-- <header class="header">
+    <header class="header">
       <nav class="container header-container">
         <div class="about-help">
-                   <ul class="list list-about">
+          <ul class="list list-about">
             <li class="item-about">
               <a href="" class="link-about">Про нас</a>
             </li>
@@ -86,26 +86,26 @@
               </li>
             </ul>
           </div>
-        </div> -->
-    <!-- ДАЛІ БУДЕ ФОРМА- ЯК ДОЙДУ ДО ФОРМ - ТОДІ ЗРОБЛЮ -->
-    <!-- <div class="header-bg">
-                   <div class="header-middle">
-                      <button type="button" class="burger-button">
-            <svg class="burger-icon">
-              <use href="./images/sprite.svg#burger-icon"></use>
-            </svg>
-          </button>
+        </div>
+        <!-- ДАЛІ БУДЕ ФОРМА- ЯК ДОЙДУ ДО ФОРМ - ТОДІ ЗРОБЛЮ -->
+        <div class="header-bg">
+          <div class="header-middle">
+            <button type="button" class="burger-button">
+              <svg class="burger-icon">
+                <use href="./images/sprite.svg#burger-icon"></use>
+              </svg>
+            </button>
             <a href="./index.html" class="link-header">
               <svg class="logo-header">
                 <use href="./images/sprite.svg#logo-header"></use>
               </svg>
             </a>
-          <button type="button" class="icon-large icon-button button-mobile">
-                <svg class="icon-phone">
-                  <use href="./images/sprite.svg#telephone"></use>
-                </svg>
-              </button>
-             <button type="button" class="button catalog">
+            <button type="button" class="icon-large icon-button button-mobile">
+              <svg class="icon-phone">
+                <use href="./images/sprite.svg#telephone"></use>
+              </svg>
+            </button>
+            <button type="button" class="button catalog">
               <svg class="icon-catalog" width="24" height="24">
                 <use href="./images/sprite.svg#catalog-menu"></use>
               </svg>
@@ -123,9 +123,9 @@
                   <use href="./images/sprite.svg#search"></use>
                 </svg>
               </button>
-            </form> -->
-    <!-- ДАЛЫ ФОРМА-ПОШУК ТОВАРЫВ -->
-    <!-- <div class="main-feedback">
+            </form>
+            <!-- ДАЛЫ ФОРМА-ПОШУК ТОВАРЫВ -->
+            <div class="main-feedback">
               <button type="button" class="icon-large icon-button">
                 <svg class="icon-phone">
                   <use href="./images/sprite.svg#telephone"></use>
@@ -150,9 +150,9 @@
                 <p class="text-item">Передзвоніть мені</p>
               </div>
             </div>
-         
+
             <div class="header-buttons">
-                           <button type="button" class="icon-large obrane-korzina">
+              <button type="button" class="icon-large obrane-korzina">
                 <svg class="icon-header">
                   <use href="./images/sprite.svg#obrane-header"></use>
                 </svg>
@@ -162,7 +162,7 @@
                   <use href="./images/sprite.svg#korzina-heder"></use>
                 </svg>
               </button>
-               <button type="button" class="icon-large obrane-korzina">
+              <button type="button" class="icon-large obrane-korzina">
                 <svg class="icon-header">
                   <use href="./images/sprite.svg#icon-search"></use>
                 </svg>
@@ -222,56 +222,44 @@
           </div>
         </div>
       </nav>
-    </header> -->
+    </header>
     <main>
       <!-- ГЕРОЙ -->
-      <!-- <section class="section slider">
+      <section class="section slider">
         <div class="container">
           <h1 class="visually-hidden">Ліжко хюпер</h1>
           <div class="wrapper-slider">
-            <picture> -->
-      <!-- sektop  -->
-      <!-- <source
+            <picture>
+              <!-- desttop  -->
+              <source
                 media="(min-width:1320px)"
-                srcset="
-                  ./images/slider/slider-shares.jpg    1x,
-                  ./images/slider/slider-shares-2x.jpg 2x
-                "
+                srcset="./images/slider/desktop-slider.jpg 1x, ./images/slider/desktop-slider-2x.jpg 2x"
                 type="image/jpg"
               />
               <source
                 media="(min-width:1320px)"
-                srcset="
-                  ./images/slider/slider-shares.webp    1x,
-                  ./images/slider/slider-shares-2x.webp 2x
-                "
+                srcset="./images/slider/desktop-slider.webp 1x, ./images/slider/desktop-slider-2x.webp 2x"
                 type="image/webp"
-              /> -->
-      <!-- mobile  -->
-      <!-- <source
+              />
+              <!-- mobile  -->
+              <source
                 media="(max-width:1319px)"
-                srcset="
-                  ./images/slider/slide-mob.jpg    1x,
-                  ./images/slider/slide-mob-2x.jpg 2x
-                "
+                srcset="./images/slider/mobile-slider.jpg 1x, ./images/slider/mobile-slider-2x.jpg 2x"
                 type="image/jpg"
               />
               <source
                 media="(max-width:1319px)"
-                srcset="
-                  ./images/slider/slide-mob.webp    1x,
-                  ./images/slider/slide-mob-2x.webp 2x
-                "
+                srcset="./images/slider/mobile-slider.webp 1x, ./images/slider/mobile-slider-2x.webp 2x"
                 type="image/webp"
               />
-              <img src="./images/slider/slide-mob.jpg" alt="слайдер" />
+              <img src="./images/slider/mobile-slider.jpg" alt="слайдер" />
             </picture>
             <svg class="icon-slider" width="115" height="15">
               <use href="./images/sprite.svg#points-mob"></use>
             </svg>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- ПОПУЛЯРНІ КАТЕГОРІЇ -->
       <section class="section popular-categories">
         <div class="container">
@@ -316,8 +304,7 @@
                 <img
                   src="./images/popular-categoris/mobile-beds.png"
                   alt="ліжка"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Ліжка</h3>
               <p class="description amount">54</p>
@@ -366,8 +353,7 @@
                 <img
                   src="./images/popular-categoris/mobile-matresses.png"
                   alt="матраци"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Матраци</h3>
               <p class="description amount">30</p>
@@ -416,8 +402,7 @@
                 <img
                   src="./images/popular-categoris/mobile-soft-furniture.png"
                   alt="м'які меблі"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">М'які меблі</h3>
               <p class="description amount">196</p>
@@ -466,8 +451,7 @@
                 <img
                   srcset="./images/popular-categoris/mobile-wardrodes.png"
                   alt="шафи"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Шафи</h3>
               <p class="description amount">79</p>
@@ -516,8 +500,7 @@
                 <img
                   src="./images/popular-categoris/mobile-comodes.png"
                   alt="комоди"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Комоди</h3>
               <p class="description amount">54</p>
@@ -566,8 +549,7 @@
                 <img
                   src="./images/popular-categoris/mobile-thumbs.png"
                   alt=""
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Тумби</h3>
               <p class="description amount">64</p>
@@ -616,8 +598,7 @@
                 <img
                   src="./images/popular-categoris/mobile-tables.png"
                   alt="Столи"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Столи</h3>
               <p class="description amount">35</p>
@@ -666,8 +647,7 @@
                 <img
                   src="./images/popular-categoris/mobile-chairs.png"
                   alt="Стільці"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Стільці</h3>
               <p class="description amount">89</p>
@@ -716,8 +696,7 @@
                 <img
                   src="./images/popular-categoris/mobile-furniture-walls.png"
                   alt="Меблева стіни"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">
                 Меблеві <span class="furniture-walls">стіни</span>
@@ -768,8 +747,7 @@
                 <img
                   src="./images/popular-categoris/mobile-kitchens.png"
                   alt="Кухні"
-                  class="img-categories"
-                />
+                                  />
               </picture>
               <h3 class="description title-descr">Кухні</h3>
               <p class="description amount">30</p>
@@ -783,7 +761,7 @@
         </div>
       </section>
       <!-- НАЙПОПУЛЯРНІШІ ТОВАРИ -->
-      <!-- <section class="section popular-products">
+      <section class="section popular-products">
         <div class="container">
           <div class="title-wrapper">
             <h2 class="no-margin section-title">Найпопулярніші товари</h2>
@@ -1148,7 +1126,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- АКЦІЇ -->
       <!-- <section class="section shares">
         <div class="container">
@@ -1332,7 +1310,7 @@
         </div>
       </section> -->
       <!-- СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ  -->
-      <!-- <section class="section articles-news">
+      <section class="section articles-news">
         <div class="container">
           <div class="title-wrapper">
             <h2 class="no-margin section-title">
@@ -1421,9 +1399,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- ПРО: ПЕРЕВАГИ -->
-      <!-- <section class="section about">
+      <section class="section about">
         <div class="container">
           <h2 class="visually-hidden">Про</h2>
           <div class="wrapper-description">
@@ -1484,10 +1462,10 @@
             </ul>
           </section>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- ФУТЕР -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="wrapper-footer">
           <div class="wrapper-item">
@@ -1693,7 +1671,7 @@
                 <p class="connection footer-call">Передзвоніть мені</p>
               </address>
             </div>
-                       <div class="address-wrapper">
+            <div class="address-wrapper">
               <svg class="icon-large icon-address">
                 <use href="./images/sprite.svg#footer-map"></use>
               </svg>
@@ -1719,7 +1697,7 @@
           &#169; KROVATO - Технології сну - 2022. Всі права захищені.
         </p>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
 
