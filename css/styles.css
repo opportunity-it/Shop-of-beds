@@ -415,7 +415,7 @@ margin-left: auto;
 /* ПРОДОВЖ. СТИЛІ ДЛЯ ХЕДЕРА */
 .main-feedback {
   position: relative;
-  padding: 0;
+
   display: flex;
   align-items: center;
   gap: 10px;
@@ -450,13 +450,7 @@ margin-left: auto;
   fill: currentColor;
 }
 
-.hours-tel {
-  margin-right: 10px;
-}
-
 .header .work-hours {
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 13px;
   font-weight: 300;
   line-height: 1.69;
