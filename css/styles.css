@@ -284,6 +284,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1320px) {
+  .header-middle {
+      margin-bottom: 25px;
+    }
+}
+
 .header-middle > .link-header {
   margin-left: auto;
 
