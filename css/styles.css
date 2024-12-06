@@ -132,6 +132,8 @@ img {
 
 /* СТИЛІ ДЛЯ ХЕДЕРА  */
 .header {
+position: relative;
+
   margin-bottom: 30px;
 }
 
@@ -291,12 +293,16 @@ img {
 }
 
 .header-middle > .link-header {
-  margin-left: auto;
-
   display: block;
 
   width: 215px;
   height: 36px;
+}
+
+@media screen and (max-width: 1319px) {
+  .header-middle > .link-header {
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 1320px) {
