@@ -154,7 +154,6 @@ img {
   width: 100%;
   height: 2px;
   background-color: #f8f8f8;
-  background-color: red;
 }
 
 @media screen and (min-width: 1320px) {
@@ -862,7 +861,6 @@ img {
   border: 1px solid #e3e2e2;
   border-radius: 8px;
   background-color: var(--white-text-color);
-  background-color: rgb(244 202 202);
   box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -1034,6 +1032,12 @@ img {
   border-radius: 8px;
   border: none;
   background-color: #ffbc57;
+}
+
+@media screen and (min-width:1320px) {
+  .button-products{
+    display: none;
+  }
 }
 
 /* СТИЛІ ДЛЯ "АКЦІЇ" */
