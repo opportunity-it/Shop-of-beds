@@ -61,12 +61,16 @@ img {
 }
 
 .section-title {
-  margin-bottom: 40px;
-
   font-size: 30px;
   line-height: calc(40 / 30);
 
   color: var(--main-text-color);
+}
+
+@media screen and (max-width: 1319px) {
+  .section-title {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1320px) {
@@ -153,6 +157,7 @@ img {
   display: block;
   width: 100%;
   height: 2px;
+
   background-color: #f8f8f8;
 }
 
@@ -682,6 +687,11 @@ img {
   margin-bottom: 80px;
 }
 
+@media screen and (min-width: 1320px) {
+  .popular-categories .section-title {
+    margin-bottom: 40px;
+  }
+}
 .popular-categories .list-categories {
   display: flex;
   flex-wrap: wrap;
@@ -804,10 +814,12 @@ img {
   margin-bottom: 80px;
 }
 
-.articles-news .title-wrapper {
+ .title-wrapper {
+margin-bottom: 40px;
+
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  gap: 30px;
 }
 
 .view-all {
@@ -816,8 +828,9 @@ img {
   font-size: 19px;
   display: inline-flex;
   align-items: center;
-  /* font-weight: 600; */
-  line-height: 1.26;
+  gap: 10px;
+
+  line-height: calc(24/19);
 
   color: var(--accent-color);
 }
@@ -826,10 +839,6 @@ img {
   .view-all {
     display: none;
   }
-}
-
-.icon-all {
-  margin-left: 10px;
 }
 
 .articles-news .wrapper-arrow {
@@ -1034,14 +1043,14 @@ img {
   background-color: #ffbc57;
 }
 
-@media screen and (min-width:1320px) {
-  .button-products{
+@media screen and (min-width: 1320px) {
+  .button-products {
     display: none;
   }
 }
 
 /* СТИЛІ ДЛЯ "АКЦІЇ" */
-.title-wrapper.title-shares {
+.shares .title-wrapper {
   margin-bottom: 46px;
 }
 
