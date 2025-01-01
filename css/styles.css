@@ -804,12 +804,17 @@ img {
   margin-bottom: 80px;
 }
 
- .title-wrapper {
-margin-bottom: 40px;
+.title-wrapper {
+  margin-bottom: 40px;
 
   display: flex;
   align-items: center;
-  gap: 30px;
+}
+
+@media screen and (min-width: 1320px) {
+  .title-wrapper {
+    gap: 30px;
+  }
 }
 
 .view-all {
@@ -820,7 +825,7 @@ margin-bottom: 40px;
   align-items: center;
   gap: 10px;
 
-  line-height: calc(24/19);
+  line-height: calc(24 / 19);
 
   color: var(--accent-color);
 }
@@ -900,8 +905,7 @@ margin-bottom: 40px;
 @media screen and (min-width: 1320px) {
   .popular-products .size {
     font-size: 13px;
-  font-weight: 300;
-
+    font-weight: 300;
   }
 }
 
@@ -961,10 +965,9 @@ margin-bottom: 40px;
   color: var(--main-text-color);
 }
 
-@media screen and (min-width:1320px) {
+@media screen and (min-width: 1320px) {
   .current-price {
-  font-size: 20px;
-
+    font-size: 20px;
   }
 }
 
@@ -975,8 +978,8 @@ margin-bottom: 40px;
   gap: 20px;
 }
 
-@media screen and (min-width:1320px) {
-  .icons-products{
+@media screen and (min-width: 1320px) {
+  .icons-products {
     gap: 10px;
   }
 }
@@ -1050,16 +1053,64 @@ margin-bottom: 40px;
 }
 
 /* СТИЛІ ДЛЯ "АКЦІЇ" */
+@media screen and (max-width:1319px) {
+  .shares{
+    margin-bottom: 60px;
+  }
+}
+
 .shares .title-wrapper {
-  margin-bottom: 46px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1319px) {
+  .shares .title-wrapper {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .shares .title-wrapper {
+    margin-bottom: 46px;
+  }
 }
 
 .list-shares {
+  margin-bottom: 20px;
+
   display: flex;
 }
 
-.item-shares:not(:last-child) {
-  margin-right: 30px;
+.item-shares {
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+.item-shares:not(:first-child) {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1319px) {
+  .item-shares:not(:first-child) {
+    display: none;
+  }
+}
+
+.shares .icon-mob {
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 115px;
+  height: 15px;
+
+  display: block;
+}
+
+@media screen and (min-width:1320px) {
+  .shares .icon-mob{
+    display: none;
+  }
 }
 
 /* СТИЛІ ДЛЯ "ОСТАННІ ВІДГУКИ" */
