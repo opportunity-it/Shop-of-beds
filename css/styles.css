@@ -677,11 +677,10 @@ img {
   margin-bottom: 80px;
 }
 
-@media screen and (min-width: 1320px) {
-  .popular-categories .section-title {
-    margin-bottom: 40px;
-  }
+.popular-categories .section-title {
+  margin-bottom: 40px;
 }
+
 .popular-categories .list-categories {
   display: flex;
   flex-wrap: wrap;
@@ -1053,8 +1052,8 @@ img {
 }
 
 /* СТИЛІ ДЛЯ "АКЦІЇ" */
-@media screen and (max-width:1319px) {
-  .shares{
+@media screen and (max-width: 1319px) {
+  .shares {
     margin-bottom: 60px;
   }
 }
@@ -1107,8 +1106,8 @@ img {
   display: block;
 }
 
-@media screen and (min-width:1320px) {
-  .shares .icon-mob{
+@media screen and (min-width: 1320px) {
+  .shares .icon-mob {
     display: none;
   }
 }
