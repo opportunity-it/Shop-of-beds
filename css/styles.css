@@ -841,22 +841,6 @@ img {
   }
 }
 
-@media screen and (max-width: 1319px) {
-  .articles-news .title-wrapper {
-    margin-bottom: 23px;
-  }
-}
-
-.articles-news .wrapper-arrow {
-  margin-left: auto;
-}
-
-@media screen and (max-width: 1319px) {
-  .articles-news .wrapper-arrow {
-    display: none;
-  }
-}
-
 .button-news {
   padding: 0;
   cursor: pointer;
@@ -1381,11 +1365,33 @@ img {
 }
 
 /* СТИЛІ ДЛЯ "СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ" */
+@media screen and (max-width:1319px) {
+  .section.articles-news{
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1319px) {
+  .articles-news .title-wrapper {
+    margin-bottom: 23px;
+  }
+}
+
+.articles-news .wrapper-arrow {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1319px) {
+  .articles-news .wrapper-arrow {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1319px) {
   .list-articles {
     margin-bottom: 30px;
   }
-  }
+}
 
 @media screen and (min-width: 1320px) {
   .list-articles {
@@ -1415,7 +1421,7 @@ img {
   }
 }
 
-.wrapper-img{
+.wrapper-img {
   margin: -1px;
   margin-bottom: 0;
 
