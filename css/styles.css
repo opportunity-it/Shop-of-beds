@@ -1398,10 +1398,7 @@ img {
 
   border-radius: 8px;
   border: 1px solid #e3e2e2;
-  border: 1px solid red;
-  /* border-left: 1px solid #e3e2e2;
-    border-bottom: 1px solid #e3e2e2;
-    border-right: 1px solid #e3e2e2; */
+
   background-color: var(--white-text-color);
   box-shadow: -3px 4px 15px 0px rgba(0, 0, 0, 0.06);
 }
@@ -1418,7 +1415,10 @@ img {
   }
 }
 
-.wrapper-img {
+.wrapper-img{
+  margin: -1px;
+  margin-bottom: 0;
+
   border-radius: 8px;
   overflow: hidden;
 }
