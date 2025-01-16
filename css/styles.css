@@ -1381,13 +1381,13 @@ img {
 }
 
 /* СТИЛІ ДЛЯ "СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ" */
-@media screen and (max-width:1319px) {
-  .list-articles{
+@media screen and (max-width: 1319px) {
+  .list-articles {
     margin-bottom: 30px;
   }
-}
+  }
 
-@media screen and(min-width:1320px) {
+@media screen and (min-width: 1320px) {
   .list-articles {
     display: flex;
   }
@@ -1435,12 +1435,12 @@ img {
 
 @media screen and (max-width: 1319px) {
   .read-blog {
- display: none;
+    display: none;
   }
 }
 
 .title-detail {
-padding: 30px 30px 20px 30px;
+  padding: 30px 30px 20px 30px;
 
   /* border-left: 1px solid #e3e2e2;
     border-bottom: 1px solid #e3e2e2;
@@ -1451,38 +1451,44 @@ padding: 30px 30px 20px 30px;
   margin-bottom: 30px;
 
   font-size: 26px;
-  line-height: calc(34/26);
+  line-height: calc(34 / 26);
 }
 
 .news-title.added-height {
-  line-height: calc(51/26);
+  line-height: calc(51 / 26);
 }
 
 .articles-news .link-detail {
-display: flex;
-gap: 10px;
+  display: flex;
+  gap: 10px;
 
   font-size: 19px;
-  line-height: calc(24/19);
+  line-height: calc(24 / 19);
 
   color: var(--accent-color);
 }
 
-.read-blog-mobile{
-padding: 13px 20px;
+.read-blog-mobile {
+  padding: 13px 20px;
 
   font-size: 19px;
-line-height: calc(24/19);
+  line-height: calc(24 / 19);
 
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 
-border-radius: 8px;
+  border-radius: 8px;
 
-color: var(--white-text-color);
-background-color: var(--accent-color);
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+@media screen and (min-width: 1320px) {
+  .read-blog-mobile {
+    display: none;
+  }
 }
 
 /* СТИЛІ ДЛЯ "ПРО:ПЕРЕВАГИ" */
