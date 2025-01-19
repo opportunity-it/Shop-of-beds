@@ -1499,10 +1499,16 @@ img {
 
 /* СТИЛІ ДЛЯ "ПРО:ПЕРЕВАГИ" */
 .about {
-  margin-bottom: 0;
-  padding-top: 70px;
+  padding-top: 40px;
   padding-bottom: 40px;
+  
   background-color: var(--white-text-color);
+}
+
+@media screen and (min-width:1320px) {
+  .about{
+    padding-top: 70px;
+    }
 }
 
 .wrapper-description {
