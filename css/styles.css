@@ -1514,11 +1514,9 @@ img {
   }
 }
 
-@media screen and (max-width: 1319px) {
   .about {
     position: relative;
   }
-}
 
 @media screen and (min-width: 1320px) {
   .about {
@@ -1585,6 +1583,14 @@ left: 0;
   );
 
   transform: translateX(-35px);
+}
+
+@media screen and (min-width:1320px) {
+  .about-shadow{
+    width: 1290px;
+
+    transform: translateX(-110px);
+  }
 }
 
 /* "ПЕРЕВАГИ" */
