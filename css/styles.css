@@ -1593,6 +1593,19 @@ left: 0;
   }
 }
 
+.button-shadow{
+  padding: 0;
+  background-color: transparent;
+  border: none;
+
+  width: 60px;height: 60px;
+}
+
+.icon-shadow{
+  width: 100%;
+  height: 100%;
+}
+
 /* "ПЕРЕВАГИ" */
 .list-benefits {
   display: flex;
