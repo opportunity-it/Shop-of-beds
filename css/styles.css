@@ -1450,11 +1450,7 @@ img {
 
 .title-detail {
   padding: 30px 30px 20px 30px;
-
-  /* border-left: 1px solid #e3e2e2;
-    border-bottom: 1px solid #e3e2e2;
-    border-right: 1px solid #e3e2e2; */
-}
+ }
 
 .news-title {
   margin-bottom: 30px;
@@ -1514,14 +1510,17 @@ img {
   }
 }
 
-  .about {
-    position: relative;
-  }
+.about {
+  position: relative;
+
+  margin-bottom: 60px;
+}
 
 @media screen and (min-width: 1320px) {
   .about {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 70px;
 
     max-width: 1070px;
   }
@@ -1564,9 +1563,9 @@ img {
 }
 
 .about-shadow {
-position: absolute;
-bottom: 0;
-left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
   height: 145px;
   width: 480px;
@@ -1585,23 +1584,25 @@ left: 0;
   transform: translateX(-35px);
 }
 
-@media screen and (min-width:1320px) {
-  .about-shadow{
+@media screen and (min-width: 1320px) {
+  .about-shadow {
     width: 1290px;
 
     transform: translateX(-110px);
   }
 }
 
-.button-shadow{
+.button-shadow {
   padding: 0;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 
-  width: 60px;height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
-.icon-shadow{
+.icon-shadow {
   width: 100%;
   height: 100%;
 }
@@ -1609,39 +1610,64 @@ left: 0;
 /* "ПЕРЕВАГИ" */
 .list-benefits {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+@media screen and (max-width: 1319px) {
+  .list-benefits {
+    row-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .list-benefits {
+    gap: 30px;
+  }
 }
 
 .item-benefits {
-  margin-right: 30px;
   display: flex;
   align-items: center;
+  gap: 5px;
+  flex-basis: calc((100% - 10px) / 2);
 }
 
-.item-benefits:last-child {
-  margin-right: 0;
+@media screen and (max-width: 1319px) {
+  .item-benefits {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .item-benefits {
+    flex-basis: calc((100% - 90px) / 4);
+    gap: 20px;
+  }
 }
 
 .icons-benefits {
   width: 80px;
   height: 80px;
-  margin-right: 20px;
+
+  flex-shrink: 0;
 }
 
 .benefits-text {
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 20px;
-  max-width: 200px;
-  /* font-weight: 600; */
-  /* line-height: 1.4; */
+  line-height: calc(28 / 20);
 
   color: var(--main-text-color);
 }
 
+@media screen and (max-width: 1319px) {
+  .benefits-text {
+    text-align: center;
+  }
+}
+
 .benefits-text.last-text {
-  max-width: 0;
-  min-width: 200px;
+  line-height: calc(56 / 20);
 }
 
 /* СТИЛІ ДЛЯ ФУТЕРА */
