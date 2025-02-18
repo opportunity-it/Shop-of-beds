@@ -22,14 +22,16 @@
   </head>
   <body>
     <!-- ХЕДЕР -->
-    <!-- <header class="header">
+    <header class="header">
       <nav class="container header-container">
         <div class="about-help">
           <ul class="list list-about">
             <li class="item-about">
               <a href="#" class="link-about">Про нас</a>
             </li>
-            <li class="item-about"><a href="#" class="link-about">Оплата</a></li>
+            <li class="item-about">
+              <a href="#" class="link-about">Оплата</a>
+            </li>
             <li class="item-about">
               <a href="#" class="link-about">Доставка та збірка</a>
             </li>
@@ -85,9 +87,8 @@
               </li>
             </ul>
           </div>
-        </div>   -->
-    <!-- ДАЛІ БУДЕ ФОРМА- ЯК ДОЙДУ ДО ФОРМ - ТОДІ ЗРОБЛЮ -->
-    <!-- <div class="header-bg">
+        </div>
+        <div class="header-bg">
           <div class="header-middle">
             <button type="button" class="burger-button">
               <svg class="burger-icon">
@@ -122,9 +123,8 @@
                   <use href="./images/sprite.svg#search"></use>
                 </svg>
               </button>
-            </form>   -->
-    <!-- ДАЛЫ ФОРМА-ПОШУК ТОВАРЫВ -->
-    <!-- <div class="main-feedback">
+            </form>
+            <div class="main-feedback">
               <button type="button" class="icon-large icon-button">
                 <svg class="icon-phone">
                   <use href="./images/sprite.svg#telephone"></use>
@@ -221,33 +221,45 @@
         </div>
       </nav>
     </header>
-    <main>   -->
-    <!-- ГЕРОЙ -->
-    <!-- <section class="section slider">
+    <main>
+      <!-- ГЕРОЙ -->
+      <section class="section slider">
         <div class="container">
           <h1 class="visually-hidden">Ліжко хюпер</h1>
           <div class="wrapper-slider">
-            <picture>   -->
-    <!-- desttop  -->
-    <!-- <source
+            <picture>
+              <!-- desttop  -->
+              <source
                 media="(min-width:1320px)"
-                srcset="./images/slider/desktop-slider.jpg 1x, ./images/slider/desktop-slider-2x.jpg 2x"
+                srcset="
+                  ./images/slider/desktop-slider.jpg    1x,
+                  ./images/slider/desktop-slider-2x.jpg 2x
+                "
                 type="image/jpg"
               />
               <source
                 media="(min-width:1320px)"
-                srcset="./images/slider/desktop-slider.webp 1x, ./images/slider/desktop-slider-2x.webp 2x"
+                srcset="
+                  ./images/slider/desktop-slider.webp    1x,
+                  ./images/slider/desktop-slider-2x.webp 2x
+                "
                 type="image/webp"
-              />   -->
-    <!-- mobile  -->
-    <!-- <source
+              />
+              <!-- mobile  -->
+              <source
                 media="(max-width:1319px)"
-                srcset="./images/slider/mobile-slider.jpg 1x, ./images/slider/mobile-slider-2x.jpg 2x"
+                srcset="
+                  ./images/slider/mobile-slider.jpg    1x,
+                  ./images/slider/mobile-slider-2x.jpg 2x
+                "
                 type="image/jpg"
               />
               <source
                 media="(max-width:1319px)"
-                srcset="./images/slider/mobile-slider.webp 1x, ./images/slider/mobile-slider-2x.webp 2x"
+                srcset="
+                  ./images/slider/mobile-slider.webp    1x,
+                  ./images/slider/mobile-slider-2x.webp 2x
+                "
                 type="image/webp"
               />
               <img src="./images/slider/mobile-slider.jpg" alt="слайдер" />
@@ -257,16 +269,16 @@
             </svg>
           </div>
         </div>
-      </section>   -->
-    <!-- ПОПУЛЯРНІ КАТЕГОРІЇ -->
-    <!-- <section class="section popular-categories">
-      <div class="container">
-        <h2 class="section-title">Популярні категорії</h2>
-        <ul class="list list-categories">
-          <li class="item-categories">
-            <picture> -->
-    <!-- desktop  -->
-    <!-- <source
+      </section>
+      <!-- ПОПУЛЯРНІ КАТЕГОРІЇ -->
+      <section class="section popular-categories">
+        <div class="container">
+          <h2 class="section-title">Популярні категорії</h2>
+          <ul class="list list-categories">
+            <li class="item-categories">
+              <picture>
+                <!-- desktop  -->
+                <source
                   media="(min-width:1320px)"
                   srcset="
                     ./images/popular-categoris/desktop-beds.png    1x,
@@ -281,1463 +293,1473 @@
                     ./images/popular-categoris/desktop-beds-2x.webp 2x
                   "
                   type="image/webp"
-                />   -->
-    <!-- mobile  -->
-    <!-- <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-beds.png    1x,
-                  ./images/popular-categoris/mobile-beds-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-beds.webp    1x,
-                  ./images/popular-categoris/mobile-beds-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-beds.png"
-                alt="ліжка"
-              />
-            </picture>
-            <h3 class="description title-descr">Ліжка</h3>
-            <p class="description amount">54</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-matresses.png    1x,
-                  ./images/popular-categoris/desktop-matresses-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-matresses.webp    1x,
-                  ./images/popular-categoris/desktop-matresses-2x.webp 2x
-                "
-                type="image/webp"
-              />
+                />
+                <!-- mobile  -->
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-beds.png    1x,
+                    ./images/popular-categoris/mobile-beds-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-beds.webp    1x,
+                    ./images/popular-categoris/mobile-beds-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-beds.png"
+                  alt="ліжка"
+                />
+              </picture>
+              <h3 class="description title-descr">Ліжка</h3>
+              <p class="description amount">54</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-matresses.png    1x,
+                    ./images/popular-categoris/desktop-matresses-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-matresses.webp    1x,
+                    ./images/popular-categoris/desktop-matresses-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
 
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-matresses.png    1x,
-                  ./images/popular-categoris/mobile-matresses-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-matresses.webp    1x,
-                  ./images/popular-categoris/mobile-matresses-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-matresses.png"
-                alt="матраци"
-              />
-            </picture>
-            <h3 class="description title-descr">Матраци</h3>
-            <p class="description amount">30</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-soft-furniture.png    1x,
-                  ./images/popular-categoris/desktop-soft-furniture-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-soft-furniture.webp    1x,
-                  ./images/popular-categoris/desktop-soft-furniture-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-soft-furniture.png    1x,
-                  ./images/popular-categoris/mobile-soft-furniture-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-soft-furniture.webp    1x,
-                  ./images/popular-categoris/mobile-soft-furniture-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-soft-furniture.png"
-                alt="м'які меблі"
-              />
-            </picture>
-            <h3 class="description title-descr">М'які меблі</h3>
-            <p class="description amount">196</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-wardrodes.png    1x,
-                  ./images/popular-categoris/desktop-wardrodes-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-wardrodes.webp    1x,
-                  ./images/popular-categoris/desktop-wardrodes-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-wardrodes.png    1x,
-                  ./images/popular-categoris/mobile-wardrodes-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-wardrodes.webp    1x,
-                  ./images/popular-categoris/mobile-wardrodes-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                srcset="./images/popular-categoris/mobile-wardrodes.png"
-                alt="шафи"
-              />
-            </picture>
-            <h3 class="description title-descr">Шафи</h3>
-            <p class="description amount">79</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-comodes.png    1x,
-                  ./images/popular-categoris/desktop-comodes-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-comodes.webp    1x,
-                  ./images/popular-categoris/desktop-comodes-2x.webp 2x
-                "
-                type="image/webp"
-              />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-matresses.png    1x,
+                    ./images/popular-categoris/mobile-matresses-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-matresses.webp    1x,
+                    ./images/popular-categoris/mobile-matresses-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-matresses.png"
+                  alt="матраци"
+                />
+              </picture>
+              <h3 class="description title-descr">Матраци</h3>
+              <p class="description amount">30</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-soft-furniture.png    1x,
+                    ./images/popular-categoris/desktop-soft-furniture-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-soft-furniture.webp    1x,
+                    ./images/popular-categoris/desktop-soft-furniture-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-soft-furniture.png    1x,
+                    ./images/popular-categoris/mobile-soft-furniture-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-soft-furniture.webp    1x,
+                    ./images/popular-categoris/mobile-soft-furniture-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-soft-furniture.png"
+                  alt="м'які меблі"
+                />
+              </picture>
+              <h3 class="description title-descr">М'які меблі</h3>
+              <p class="description amount">196</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-wardrodes.png    1x,
+                    ./images/popular-categoris/desktop-wardrodes-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-wardrodes.webp    1x,
+                    ./images/popular-categoris/desktop-wardrodes-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-wardrodes.png    1x,
+                    ./images/popular-categoris/mobile-wardrodes-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-wardrodes.webp    1x,
+                    ./images/popular-categoris/mobile-wardrodes-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-wardrodes.png"
+                  alt="шафи"
+                />
+              </picture>
+              <h3 class="description title-descr">Шафи</h3>
+              <p class="description amount">79</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-comodes.png    1x,
+                    ./images/popular-categoris/desktop-comodes-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-comodes.webp    1x,
+                    ./images/popular-categoris/desktop-comodes-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
 
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-comodes.png    1x,
-                  ./images/popular-categoris/mobile-comodes-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-comodes.webp    1x,
-                  ./images/popular-categoris/mobile-comodes-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-comodes.png"
-                alt="комоди"
-              />
-            </picture>
-            <h3 class="description title-descr">Комоди</h3>
-            <p class="description amount">54</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-thumbs.png    1x,
-                  ./images/popular-categoris/desktop-thumbs-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-thumbs.webp    1x,
-                  ./images/popular-categoris/desktop-thumbs-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-thumbs.png    1x,
-                  ./images/popular-categoris/mobile-thumbs-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-thumbs.webp    1x,
-                  ./images/popular-categoris/mobile-thumbs-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img src="./images/popular-categoris/mobile-thumbs.png" alt="" />
-            </picture>
-            <h3 class="description title-descr">Тумби</h3>
-            <p class="description amount">64</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-tables.png    1x,
-                  ./images/popular-categoris/desktop-tables-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-tables.webp    1x,
-                  ./images/popular-categoris/desktop-tables-2x.webp 2x
-                "
-                type="image/webp"
-              />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-comodes.png    1x,
+                    ./images/popular-categoris/mobile-comodes-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-comodes.webp    1x,
+                    ./images/popular-categoris/mobile-comodes-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-comodes.png"
+                  alt="комоди"
+                />
+              </picture>
+              <h3 class="description title-descr">Комоди</h3>
+              <p class="description amount">54</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-thumbs.png    1x,
+                    ./images/popular-categoris/desktop-thumbs-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-thumbs.webp    1x,
+                    ./images/popular-categoris/desktop-thumbs-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-thumbs.png    1x,
+                    ./images/popular-categoris/mobile-thumbs-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-thumbs.webp    1x,
+                    ./images/popular-categoris/mobile-thumbs-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-thumbs.png"
+                  alt=""
+                />
+              </picture>
+              <h3 class="description title-descr">Тумби</h3>
+              <p class="description amount">64</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-tables.png    1x,
+                    ./images/popular-categoris/desktop-tables-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-tables.webp    1x,
+                    ./images/popular-categoris/desktop-tables-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
 
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-tables.png    1x,
-                  ./images/popular-categoris/mobile-tables-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-tables.webp    1x,
-                  ./images/popular-categoris/mobile-tables-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-tables.png"
-                alt="Столи"
-              />
-            </picture>
-            <h3 class="description title-descr">Столи</h3>
-            <p class="description amount">35</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-chairs.png    1x,
-                  ./images/popular-categoris/desktop-chairs-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-chairs.webp    1x,
-                  ./images/popular-categoris/desktop-chairs-2x.webp 2x
-                "
-                type="image/webp"
-              />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-tables.png    1x,
+                    ./images/popular-categoris/mobile-tables-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-tables.webp    1x,
+                    ./images/popular-categoris/mobile-tables-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-tables.png"
+                  alt="Столи"
+                />
+              </picture>
+              <h3 class="description title-descr">Столи</h3>
+              <p class="description amount">35</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-chairs.png    1x,
+                    ./images/popular-categoris/desktop-chairs-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-chairs.webp    1x,
+                    ./images/popular-categoris/desktop-chairs-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
 
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-chairs.png    1x,
-                  ./images/popular-categoris/mobile-chairs-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-chairs.webp    1x,
-                  ./images/popular-categoris/mobile-chairs-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-chairs.png"
-                alt="Стільці"
-              />
-            </picture>
-            <h3 class="description title-descr">Стільці</h3>
-            <p class="description amount">89</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-furniture-walls.png    1x,
-                  ./images/popular-categoris/desktop-furniture-walls-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-furniture-walls.webp    1x,
-                  ./images/popular-categoris/desktop-furniture-walls-2x.webp 2x
-                "
-                type="image/webp"
-              />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-chairs.png    1x,
+                    ./images/popular-categoris/mobile-chairs-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-chairs.webp    1x,
+                    ./images/popular-categoris/mobile-chairs-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-chairs.png"
+                  alt="Стільці"
+                />
+              </picture>
+              <h3 class="description title-descr">Стільці</h3>
+              <p class="description amount">89</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-furniture-walls.png    1x,
+                    ./images/popular-categoris/desktop-furniture-walls-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-furniture-walls.webp    1x,
+                    ./images/popular-categoris/desktop-furniture-walls-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
 
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-furniture-walls.png    1x,
-                  ./images/popular-categoris/mobile-furniture-walls-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-furniture-walls.webp    1x,
-                  ./images/popular-categoris/mobile-furniture-walls-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-furniture-walls.png"
-                alt="Меблева стіни"
-              />
-            </picture>
-            <h3 class="description title-descr">
-              Меблеві <span class="furniture-walls">стіни</span>
-            </h3>
-            <p class="description amount">24</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-categories">
-            <picture>
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-kitchens.png    1x,
-                  ./images/popular-categoris/desktop-kitchens-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(min-width:1320px)"
-                srcset="
-                  ./images/popular-categoris/desktop-kitchens.webp    1x,
-                  ./images/popular-categoris/desktop-kitchens-2x.webp 2x
-                "
-                type="image/webp"
-              />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-furniture-walls.png    1x,
+                    ./images/popular-categoris/mobile-furniture-walls-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-furniture-walls.webp    1x,
+                    ./images/popular-categoris/mobile-furniture-walls-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-furniture-walls.png"
+                  alt="Меблева стіни"
+                />
+              </picture>
+              <h3 class="description title-descr">
+                Меблеві <span class="furniture-walls">стіни</span>
+              </h3>
+              <p class="description amount">24</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-categories">
+              <picture>
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-kitchens.png    1x,
+                    ./images/popular-categoris/desktop-kitchens-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(min-width:1320px)"
+                  srcset="
+                    ./images/popular-categoris/desktop-kitchens.webp    1x,
+                    ./images/popular-categoris/desktop-kitchens-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
 
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-kitchens.png    1x,
-                  ./images/popular-categoris/mobile-kitchens-2x.png 2x
-                "
-                type="image/png"
-              />
-              <source
-                media="(max-width:1319px)"
-                srcset="
-                  ./images/popular-categoris/mobile-kitchens.webp    1x,
-                  ./images/popular-categoris/mobile-kitchens-2x.webp 2x
-                "
-                type="image/webp"
-              />
-              <img
-                src="./images/popular-categoris/mobile-kitchens.png"
-                alt="Кухні"
-              />
-            </picture>
-            <h3 class="description title-descr">Кухні</h3>
-            <p class="description amount">30</p>
-            <a class="icon-large link-categories">
-              <svg class="icons-categories">
-                <use href="./images/sprite.svg#arrowright-top"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section> -->
-    <!-- НАЙПОПУЛЯРНІШІ ТОВАРИ -->
-    <!-- <section class="section popular-products">
-      <div class="container">
-        <div class="title-wrapper">
-          <h2 class="section-title">Найпопулярніші товари</h2>
-          <a href="#" class="view-all"
-            >Дивитись всі
-            <svg class="icon-small">
-              <use href="./images/sprite.svg#arrowview-all"></use>
-            </svg>
-          </a>
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-kitchens.png    1x,
+                    ./images/popular-categoris/mobile-kitchens-2x.png 2x
+                  "
+                  type="image/png"
+                />
+                <source
+                  media="(max-width:1319px)"
+                  srcset="
+                    ./images/popular-categoris/mobile-kitchens.webp    1x,
+                    ./images/popular-categoris/mobile-kitchens-2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <img
+                  src="./images/popular-categoris/mobile-kitchens.png"
+                  alt="Кухні"
+                />
+              </picture>
+              <h3 class="description title-descr">Кухні</h3>
+              <p class="description amount">30</p>
+              <a class="icon-large link-categories">
+                <svg class="icons-categories">
+                  <use href="./images/sprite.svg#arrowright-top"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-        <ul class="list list-products">
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-bed-sparta.png    1x,
-                    ./images/popular-products/desktop-bed-sparta-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-bed-sparta.webp    1x,
-                    ./images/popular-products/desktop-bed-sparta-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-bed-sparta.png    1x,
-                    ./images/popular-products/mobile-bed-sparta-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-bed-sparta.webp    1x,
-                    ./images/popular-products/mobile-bed-sparta-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images/popular-products/mobile-bed-sparta.png"
-                  alt="ліжко-спарта"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title">
-                  Ліжко Спарта / Sparta з підйомним механізмом
-                </h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="past-price">25 400 грн.</p>
-                <p class="current-price">15 400 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-bed-argon.png    1x,
-                    ./images/popular-products/desktop-bed-argon-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-bed-argon.webp    1x,
-                    ./images/popular-products/desktop-bed-argon-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-bed-argon.png    1x,
-                    ./images/popular-products/mobile-bed-argon-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-bed-argon.webp    1x,
-                    ./images/popular-products/mobile-bed-argon-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images//popular-products//mobile-bed-argon.png"
-                  alt="ліжко-аргон"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title">Ліжко Аргон з підйомним механізмом</h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="current-price">16 400 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-bed-prestige.png    1x,
-                    ./images/popular-products/desktop-bed-prestige-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-bed-prestige.webp    1x,
-                    ./images/popular-products/desktop-bed-prestige-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-bed-prestige.png    1x,
-                    ./images/popular-products/mobile-bed-prestige-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-bed-prestige.webp    1x,
-                    ./images/popular-products/mobile-bed-prestige-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images/popular-products/mobile-bed-prestige.png"
-                  alt="ліжко-престиж"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title">Ліжко Престиж з підйомним механізмом</h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="current-price">14 969 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-sofa-tokio-2.png    1x,
-                    ./images/popular-products/desktop-sofa-tokio-2-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-sofa-tokio-2.webp    1x,
-                    ./images/popular-products/desktop-sofa-tokio-2-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-sofa-tokio-2.png    1x,
-                    ./images/popular-products/mobile-sofa-tokio-2-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-sofa-tokio-2.webp    1x,
-                    ./images/popular-products/mobile-sofa-tokio-2-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images//popular-products/mobile-sofa-tokio-2.png"
-                  alt="диван токіо-2"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title add-height">Диван Токіо-2</h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="current-price">13 211 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1319px)"
-                  srcset="
-                    ./images/popular-products/desktop-matrass-largo.png    1x,
-                    ./images/popular-products/desktop-matrass-largo-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1319px)"
-                  srcset="
-                    ./images/popular-products/desktop-matrass-largo.webp    1x,
-                    ./images/popular-products/desktop-matrass-largo-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-matrass-largo.png    1x,
-                    ./images/popular-products/mobile-matrass-largo-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-matrass-largo.webp    1x,
-                    ./images/popular-products/mobile-matrass-largo-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images/popular-products/mobile-matrass-largo.png"
-                  alt="матрац ларго"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title">Матрац Largo SLIM / Ларго Слім</h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="past-price">3 122 грн.</p>
-                <p class="current-price">2 810 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1319px)"
-                  srcset="
-                    ./images/popular-products/desktop-matrass-argentum.png    1x,
-                    ./images/popular-products/desktop-matrass-argentum-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1319px)"
-                  srcset="
-                    ./images/popular-products/desktop-matrass-argentum.webp    1x,
-                    ./images/popular-products/desktop-matrass-argentum-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-matrass-argentum.png    1x,
-                    ./images/popular-products/mobile-matrass-argentum-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-matrass-argentum.webp    1x,
-                    ./images/popular-products/mobile-matrass-argentum-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images//popular-products/mobile-matrass-argentum.png"
-                  alt="матрац аргентум"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title">
-                  Матрац ARGENTUM AMALTEA / Аргентум Амалті
-                </h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="past-price">5 966 грн.</p>
-                <p class="current-price">5 071 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-sofa-bravo.png    1x,
-                    ./images/popular-products/desktop-sofa-bravo-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-sofa-bravo.webp    1x,
-                    ./images/popular-products/desktop-sofa-bravo-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-sofa-bravo.png    1x,
-                    ./images/popular-products/mobile-sofa-bravo-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-sofa-bravo.webp    1x,
-                    ./images/popular-products/mobile-sofa-bravo-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images//popular-products/mobile-sofa-bravo.png"
-                  alt="диван браво"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title add-height">Диван Браво</h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="current-price">10 008 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="item-products">
-            <a href="#" class="product-card">
-              <picture>
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-mk-5.png    1x,
-                    ./images/popular-products/desktop-mk-5-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(min-width:1320px)"
-                  srcset="
-                    ./images/popular-products/desktop-mk-5.webp    1x,
-                    ./images/popular-products/desktop-mk-5-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-mk-5.png    1x,
-                    ./images/popular-products/mobile-mk-5-2x.png 2x
-                  "
-                  type="image/png"
-                />
-                <source
-                  media="(max-width:1319px)"
-                  srcset="
-                    ./images/popular-products/mobile-mk-5.webp    1x,
-                    ./images/popular-products/mobile-mk-5-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images/popular-products//mobile-mk-5.png"
-                  alt="ліжко мк-5"
-                />
-              </picture>
-            </a>
-            <div class="product-information">
-              <p class="size">Розмір: 61 x 184 x 2130 мм</p>
-              <a href="#" class="link-title">
-                <h3 class="sub-title add-height">Ліжко МК-5</h3>
-              </a>
-              <p class="in-stock">
-                <svg class="icon-small icon-checkgreen">
-                  <use href="./images/sprite.svg#checkgreen"></use>
-                </svg>
-                В наявності
-              </p>
-            </div>
-            <div class="prices-icons">
-              <div class="prices">
-                <p class="current-price">8 775 грн.</p>
-              </div>
-              <div class="icons-products">
-                <button
-                  type="button"
-                  class="icon-large button-price button-sire"
-                >
-                  <svg class="icon-sire">
-                    <use href="./images/sprite.svg#obrane-sire"></use>
-                  </svg>
-                </button>
-                <button
-                  type="button"
-                  class="icon-large button-price button-white"
-                >
-                  <svg class="icon-white">
-                    <use href="./images/sprite.svg#korzina(white)"></use>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-        </ul>
-        <button type="button" class="button-products">
-          <svg width="24" height="24">
-            <use href="./images//sprite.svg#reload"></use>
-          </svg>
-          Показати ще товари
-        </button>
-      </div>
-    </section> -->
-    <!-- АКЦІЇ -->
-    <!-- <section class="section shares">
-      <div class="container">
-        <div class="title-wrapper">
-          <h2 class="section-title">Акції</h2>
-          <a href="#" class="view-all"
-            >Дивитись всі
-            <svg class="icon-small">
-              <use href="./images/sprite.svg#arrowview-all"></use>
-            </svg>
-          </a>
-        </div>
-        <ul class="list list-shares">
-          <li class="item-shares">
-            <a href="#">
-              <picture>
-                <source
-                  srcset="
-                    ./images/shares/akciya-summer-sale.jpg    1x,
-                    ./images/shares/akciya-summer-sale-2x.jpg 2x
-                  "
-                  type="image/jpg"
-                />
-                <source
-                  srcset="
-                    ./images/shares/akciya-summer-sale.webp    1x,
-                    ./images/shares/akciya-summer-sale-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images/shares/akciya-summer-sale.jpg"
-                  alt="акція-літній розпродаж"
-                />
-              </picture>
-            </a>
-          </li>
-          <li class="item-shares">
-            <a href="#">
-              <picture>
-                <source
-                  srcset="
-                    ./images/shares/akciya-sofa-price.jpg    1x,
-                    ./images/shares/akciya-sofa-price-2x.jpg 2x
-                  "
-                  type="image/jpg"
-                />
-                <source
-                  srcset="
-                    ./images/shares/akciya-sofa-price.webp    1x,
-                    ./images/shares/akciya-sofa-price-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images/shares/akciya-sofa-price.jpg"
-                  alt="акція-диванний цінопад"
-                />
-              </picture>
-            </a>
-          </li>
-          <li class="item-shares">
-            <a href="#">
-              <picture>
-                <source
-                  srcset="
-                    ./images/shares/akciya-royal-discounts.jpg    1x,
-                    ./images/shares/akciya-royal-discounts-2x.jpg 2x
-                  "
-                  type="image/jpg"
-                />
-                <source
-                  srcset="
-                    ./images/shares/akciya-royal-discounts.webp    1x,
-                    ./images/shares/akciya-royal-discounts-2x.webp 2x
-                  "
-                  type="image/webp"
-                />
-                <img
-                  src="./images/shares/akciya-royal-discounts.jpg"
-                  alt="акція королівські знижки"
-                />
-              </picture>
-            </a>
-          </li>
-        </ul>
-        <svg class="icon-mob">
-          <use href="./images/sprite.svg#points-shares-mob"></use>
-        </svg>
-      </div>
-    </section> -->
-    <!-- ОСТАННІ ВІДГУКИ  -->
-    <!-- <section class="section last-reviews">
-      <div class="container wrapper-reviews">
-        <div class="wrapper-logo-rating">
-          <h2 class="section-title">Останні відгуки</h2>
-          <div class="logo-rating">
-            <a href="#" class="logo-link">
-              <svg class="logo-reviews">
-                <use href="./images/sprite.svg#logo-last-reviews"></use>
-              </svg>
-            </a>
-            <div class="wrapper-rating">
-              <h3 class="title-rating">Магазин меблів для дому «KROVATO»</h3>
-              <div class="rating-icon">
-                <p class="rating">5.0</p>
-                <svg width="120" height="24">
-                  <use href="./images/sprite.svg#stars"></use>
-                </svg>
-              </div>
-              <p class="count-rating">Базовано на відгуках: 269</p>
-            </div>
-          </div>
-          <button type="button" class="button write-review">
-            <svg class="icon-review" width="24" height="24">
-              <use href="./images/sprite.svg#write-review"></use>
-            </svg>
-            Написати відгук</button
-          ><a href="#" class="all-reviews">
-            <svg class="icon-small icon-reviews">
-              <use href="./images/sprite.svg#all-reviews"></use>
-            </svg>
-            Всі відгуки</a
-          >
-        </div>
-         <ul class="list list-reviews">
-          <li class="item-reviews">
-            <div class="name-date">
-              <button type="button" class="button-avatar">
-                <svg class="icon-avatar">
-                  <use href="./images/sprite.svg#avatar"></use>
-                </svg>
-              </button>
-              <div>
-                <p class="name-reviews">Іван Стедниця</p>
-                <svg width="120" height="24" class="icon-stars">
-                  <use href="./images/sprite.svg#stars"></use>
-                </svg>
-              </div>
-              <p class="date-reviews">25.01.2022</p>
-            </div>
-            <p class="descr-reviews">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-              nemo fugit adipisci eligendi numquam, labore, doloremque error ex
-              nihil voluptatibus non vero eveniet laudantium possimus voluptates
-              unde, rem ratione dicta! Velit ad officiis soluta quae labore.
-              Minima veniam, quis cumque neque ea harum, suscipit perspiciatis
-              est aspernatur, libero quas similique! Ipsa placeat deserunt
-              laborum ducimus, repellat fugiat consequatur ipsam amet dicta in
-              voluptate enim quod expedita consequuntur eum corporis porro
-              doloribus obcaecati cumque, nobis explicabo. Nihil accusantium
-              aspernatur placeat, ullam molestiae laudantium magni ut fugiat!
-              Odio quae, cumque soluta, enim, sunt debitis dignissimos mollitia
-              voluptatibus beatae architecto quasi. Cupiditate laboriosam
-              voluptates nam aspernatur id. Quod itaque rerum repellendus,
-              inventore impedit fugit et officiis odio illum. Iure corporis
-              officiis laboriosam corrupti, velit vitae ut doloremque, itaque
-              eum sit reprehenderit! Deleniti ea, cupiditate delectus ipsum
-              harum quisquam animi aspernatur quod, recusandae incidunt
-              accusamus beatae repellendus esse obcaecati officia dolores
-              voluptatibus reiciendis nihil dolorum voluptatum voluptate vitae
-              corporis suscipit. Modi nobis corrupti facere unde error tenetur
-              consequatur. Rerum aperiam similique beatae dolorum repellendus
-              voluptates pariatur vel. Sed reiciendis fugit laborum possimus ab
-              optio voluptas aperiam labore. A eveniet mollitia, ducimus
-              voluptatibus voluptate hic molestiae esse perferendis reiciendis
-              consectetur, numquam iure recusandae! Quos, numquam!
-            </p>
-            <a href="#" class="link-reviews">
-              <img
-                src="./images/last-reviews/img-tovar.png"
-                alt="товар"
-                width="50"
-                height="50"
-                              />
-              Диван Orange-Line Родео SF ...</a
-            >
-          </li>
-          <li class="item-reviews">
-            <div class="name-date">
-              <button type="button" class="button-avatar">
-                <svg class="icon-avatar">
-                  <use href="./images/sprite.svg#avatar"></use>
-                </svg>
-              </button>
-              <div>
-                <p class="name-reviews">Іван Стедниця</p>
-                <svg width="120" height="24" class="icon-stars">
-                  <use href="./images/sprite.svg#stars"></use>
-                </svg>
-              </div>
-              <p class="date-reviews">25.01.2022</p>
-            </div>
-            <p class="descr-reviews">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              tenetur, explicabo quia deleniti esse ullam ea omnis debitis?
-              Corrupti animi eveniet itaque distinctio! Cumque, unde? In
-              quisquam repellat voluptatibus quaerat, odio eos. Nostrum in
-              ratione delectus excepturi ad autem. Vero error perspiciatis quae
-              consequuntur. Quia libero consectetur cumque vero vel obcaecati
-              atque porro facilis nobis dolore quae corporis necessitatibus,
-              excepturi unde quaerat, ipsum error hic veritatis neque, molestiae
-              velit eligendi? Alias officiis harum est hic officia vitae
-              corporis minima aperiam saepe cumque, ipsum perspiciatis quod unde
-              nostrum deserunt tempora laboriosam dolores vel reprehenderit
-              dolorum nihil. Eius perferendis dolores, cupiditate ipsa veniam,
-              ex neque quisquam quidem nemo modi fuga esse illo odit laborum
-              earum. Asperiores cupiditate deserunt magni sint itaque rerum
-              excepturi fuga in iste ut possimus porro vitae placeat nesciunt
-              hic et ab incidunt facere ullam, sit eaque, delectus dolorem quo
-              ipsum! Labore unde nam maxime! Voluptatibus placeat at culpa. Nisi
-              recusandae a vero placeat nobis quibusdam reprehenderit ea eius!
-              Vero incidunt pariatur aliquam voluptates fugit voluptatibus
-              explicabo laboriosam iusto esse, perferendis recusandae inventore
-              iure necessitatibus nulla velit totam soluta facere ea quas!
-              Tempora libero earum ducimus, illo a inventore quod cumque
-              assumenda, numquam et eveniet, asperiores dicta eum! Voluptatem.
-            </p>
-            <a href="#" class="link-reviews">
-              <img
-                src="./images/last-reviews/img-tovar.png"
-                alt="товар"
-                width="50"
-                height="50"
-                              />
-              Диван Orange-Line Родео SF ...</a
-            >
-          </li>
-        </ul> 
-        <svg class="icon-mob">
-          <use href="./images/sprite.svg#points-shares-mob"></use>
-        </svg>
-      </div>
-    </section> -->
-    <!-- СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ  -->
-    <!-- <section class="section articles-news">
-      <div class="container">
-        <div class="title-wrapper">
-          <h2 class="section-title">Свіжі статті та останні новини</h2>
-          <a href="#" class="read-blog"
-            >Читати блог
-            <svg class="icon-small">
-              <use href="./images/sprite.svg#arrowview-all"></use>
-            </svg>
-          </a>
-          <div class="wrapper-arrow">
-            <button type="button" class="button-news">
-              <svg width="60" height="60">
-                <use href="./images/sprite.svg#arrow-left"></use>
-              </svg>
-            </button>
-            <button type="button" class="button-news">
-              <svg width="60" height="60">
-                <use href="./images/sprite.svg#arrow-right"></use>
-              </svg>
-            </button>
-          </div>
-        </div>
-        <ul class="list list-articles">
-          <li class="item-articles">
-            <div class="wrapper-img">
-              <img
-                src="./images/articles-news/chairs-living-room.jpg"
-                alt="стільці для вітальні"
-                width="410"
-                height="270"
-              />
-            </div>
-            <div class="title-detail">
-              <p class="news-title added-height">
-                Стільці для вітальні. Як правильно вибрати?
-              </p>
-              <a href="#" class="link-detail"
-                >Детальніше
-                <svg class="icon-small">
-                  <use href="./images/sprite.svg#arrowview-all"></use>
-                </svg>
-              </a>
-            </div>
-          </li>
-          <li class="item-articles">
-            <div class="wrapper-img">
-              <img
-                src="./images/articles-news/kitchen.jpg"
-                alt="стільці і кухонний куточок"
-                width="410"
-                height="270"
-              />
-            </div>
-            <div class="title-detail">
-              <p class="news-title">
-                Що краще вибрати для кухні – стільці чи кухонний куточок?
-              </p>
-              <a href="#" class="link-detail"
-                >Детальніше
-                <svg class="icon-small">
-                  <use href="./images/sprite.svg#arrowview-all"></use>
-                </svg>
-              </a>
-            </div>
-          </li>
-          <li class="item-articles">
-            <div class="wrapper-img">
-              <img
-                src="./images/articles-news/furniture-living-room.jpg"
-                alt="меблі для вітальні"
-                width="410"
-                height="270"
-              />
-            </div>
-            <div class="title-detail">
-              <p class="news-title">
-                Оформлення вітальні. Які м'які меблі краще вибрати?
-              </p>
-              <a href="#" class="link-detail"
-                >Детальніше
-                <svg class="icon-small">
-                  <use href="./images/sprite.svg#arrowview-all"></use>
-                </svg>
-              </a>
-            </div>
-          </li>
-        </ul>
-        <a href="#" class="read-blog-mobile">
-          <svg class="icon-small">
-            <use href="./images/sprite.svg#arrow-view-all-white"></use>
-          </svg>
-          Читати блог
-        </a>
-      </div>
-    </section> -->
-    <!-- СЕО-ПЕРЕВАГИ -->
-    <!-- <section class="section about-benefit">
+      </section>
+      <!-- НАЙПОПУЛЯРНІШІ ТОВАРИ -->
+      <section class="section popular-products">
         <div class="container">
-          <h2 class="visually-hidden">Про нас</h2>
+          <div class="title-wrapper">
+            <h2 class="section-title">Найпопулярніші товари</h2>
+            <a href="#" class="view-all"
+              >Дивитись всі
+              <svg class="icon-small">
+                <use href="./images/sprite.svg#arrowview-all"></use>
+              </svg>
+            </a>
+          </div>
+          <ul class="list list-products">
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-bed-sparta.png    1x,
+                      ./images/popular-products/desktop-bed-sparta-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-bed-sparta.webp    1x,
+                      ./images/popular-products/desktop-bed-sparta-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-bed-sparta.png    1x,
+                      ./images/popular-products/mobile-bed-sparta-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-bed-sparta.webp    1x,
+                      ./images/popular-products/mobile-bed-sparta-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/popular-products/mobile-bed-sparta.png"
+                    alt="ліжко-спарта"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title">
+                    Ліжко Спарта / Sparta з підйомним механізмом
+                  </h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="past-price">25 400 грн.</p>
+                  <p class="current-price">15 400 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-bed-argon.png    1x,
+                      ./images/popular-products/desktop-bed-argon-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-bed-argon.webp    1x,
+                      ./images/popular-products/desktop-bed-argon-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-bed-argon.png    1x,
+                      ./images/popular-products/mobile-bed-argon-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-bed-argon.webp    1x,
+                      ./images/popular-products/mobile-bed-argon-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images//popular-products//mobile-bed-argon.png"
+                    alt="ліжко-аргон"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title">Ліжко Аргон з підйомним механізмом</h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="current-price">16 400 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-bed-prestige.png    1x,
+                      ./images/popular-products/desktop-bed-prestige-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-bed-prestige.webp    1x,
+                      ./images/popular-products/desktop-bed-prestige-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-bed-prestige.png    1x,
+                      ./images/popular-products/mobile-bed-prestige-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-bed-prestige.webp    1x,
+                      ./images/popular-products/mobile-bed-prestige-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/popular-products/mobile-bed-prestige.png"
+                    alt="ліжко-престиж"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title">
+                    Ліжко Престиж з підйомним механізмом
+                  </h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="current-price">14 969 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-sofa-tokio-2.png    1x,
+                      ./images/popular-products/desktop-sofa-tokio-2-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-sofa-tokio-2.webp    1x,
+                      ./images/popular-products/desktop-sofa-tokio-2-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-sofa-tokio-2.png    1x,
+                      ./images/popular-products/mobile-sofa-tokio-2-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-sofa-tokio-2.webp    1x,
+                      ./images/popular-products/mobile-sofa-tokio-2-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images//popular-products/mobile-sofa-tokio-2.png"
+                    alt="диван токіо-2"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title add-height">Диван Токіо-2</h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="current-price">13 211 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1319px)"
+                    srcset="
+                      ./images/popular-products/desktop-matrass-largo.png    1x,
+                      ./images/popular-products/desktop-matrass-largo-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1319px)"
+                    srcset="
+                      ./images/popular-products/desktop-matrass-largo.webp    1x,
+                      ./images/popular-products/desktop-matrass-largo-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-matrass-largo.png    1x,
+                      ./images/popular-products/mobile-matrass-largo-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-matrass-largo.webp    1x,
+                      ./images/popular-products/mobile-matrass-largo-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/popular-products/mobile-matrass-largo.png"
+                    alt="матрац ларго"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title">Матрац Largo SLIM / Ларго Слім</h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="past-price">3 122 грн.</p>
+                  <p class="current-price">2 810 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1319px)"
+                    srcset="
+                      ./images/popular-products/desktop-matrass-argentum.png    1x,
+                      ./images/popular-products/desktop-matrass-argentum-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1319px)"
+                    srcset="
+                      ./images/popular-products/desktop-matrass-argentum.webp    1x,
+                      ./images/popular-products/desktop-matrass-argentum-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-matrass-argentum.png    1x,
+                      ./images/popular-products/mobile-matrass-argentum-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-matrass-argentum.webp    1x,
+                      ./images/popular-products/mobile-matrass-argentum-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images//popular-products/mobile-matrass-argentum.png"
+                    alt="матрац аргентум"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title">
+                    Матрац ARGENTUM AMALTEA / Аргентум Амалті
+                  </h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="past-price">5 966 грн.</p>
+                  <p class="current-price">5 071 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-sofa-bravo.png    1x,
+                      ./images/popular-products/desktop-sofa-bravo-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-sofa-bravo.webp    1x,
+                      ./images/popular-products/desktop-sofa-bravo-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-sofa-bravo.png    1x,
+                      ./images/popular-products/mobile-sofa-bravo-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-sofa-bravo.webp    1x,
+                      ./images/popular-products/mobile-sofa-bravo-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images//popular-products/mobile-sofa-bravo.png"
+                    alt="диван браво"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title add-height">Диван Браво</h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="current-price">10 008 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="item-products">
+              <a href="#" class="product-card">
+                <picture>
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-mk-5.png    1x,
+                      ./images/popular-products/desktop-mk-5-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(min-width:1320px)"
+                    srcset="
+                      ./images/popular-products/desktop-mk-5.webp    1x,
+                      ./images/popular-products/desktop-mk-5-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-mk-5.png    1x,
+                      ./images/popular-products/mobile-mk-5-2x.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <source
+                    media="(max-width:1319px)"
+                    srcset="
+                      ./images/popular-products/mobile-mk-5.webp    1x,
+                      ./images/popular-products/mobile-mk-5-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/popular-products//mobile-mk-5.png"
+                    alt="ліжко мк-5"
+                  />
+                </picture>
+              </a>
+              <div class="product-information">
+                <p class="size">Розмір: 61 x 184 x 2130 мм</p>
+                <a href="#" class="link-title">
+                  <h3 class="sub-title add-height">Ліжко МК-5</h3>
+                </a>
+                <p class="in-stock">
+                  <svg class="icon-small icon-checkgreen">
+                    <use href="./images/sprite.svg#checkgreen"></use>
+                  </svg>
+                  В наявності
+                </p>
+              </div>
+              <div class="prices-icons">
+                <div class="prices">
+                  <p class="current-price">8 775 грн.</p>
+                </div>
+                <div class="icons-products">
+                  <button
+                    type="button"
+                    class="icon-large button-price button-sire"
+                  >
+                    <svg class="icon-sire">
+                      <use href="./images/sprite.svg#obrane-sire"></use>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="icon-large button-price button-white"
+                  >
+                    <svg class="icon-white">
+                      <use href="./images/sprite.svg#korzina(white)"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button type="button" class="button-products">
+            <svg width="24" height="24">
+              <use href="./images//sprite.svg#reload"></use>
+            </svg>
+            Показати ще товари
+          </button>
+        </div>
+      </section>
+      <!-- АКЦІЇ -->
+      <section class="section shares">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="section-title">Акції</h2>
+            <a href="#" class="view-all"
+              >Дивитись всі
+              <svg class="icon-small">
+                <use href="./images/sprite.svg#arrowview-all"></use>
+              </svg>
+            </a>
+          </div>
+          <ul class="list list-shares">
+            <li class="item-shares">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/shares/akciya-summer-sale.jpg    1x,
+                      ./images/shares/akciya-summer-sale-2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                      ./images/shares/akciya-summer-sale.webp    1x,
+                      ./images/shares/akciya-summer-sale-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/shares/akciya-summer-sale.jpg"
+                    alt="акція-літній розпродаж"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="item-shares">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/shares/akciya-sofa-price.jpg    1x,
+                      ./images/shares/akciya-sofa-price-2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                      ./images/shares/akciya-sofa-price.webp    1x,
+                      ./images/shares/akciya-sofa-price-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/shares/akciya-sofa-price.jpg"
+                    alt="акція-диванний цінопад"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="item-shares">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/shares/akciya-royal-discounts.jpg    1x,
+                      ./images/shares/akciya-royal-discounts-2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    srcset="
+                      ./images/shares/akciya-royal-discounts.webp    1x,
+                      ./images/shares/akciya-royal-discounts-2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <img
+                    src="./images/shares/akciya-royal-discounts.jpg"
+                    alt="акція королівські знижки"
+                  />
+                </picture>
+              </a>
+            </li>
+          </ul>
+          <svg class="icon-mob">
+            <use href="./images/sprite.svg#points-shares-mob"></use>
+          </svg>
+        </div>
+      </section>
+      <!-- ОСТАННІ ВІДГУКИ  -->
+      <section class="section last-reviews">
+        <div class="container wrapper-reviews">
+          <div class="wrapper-logo-rating">
+            <h2 class="section-title">Останні відгуки</h2>
+            <div class="logo-rating">
+              <a href="#" class="logo-link">
+                <svg class="logo-reviews">
+                  <use href="./images/sprite.svg#logo-last-reviews"></use>
+                </svg>
+              </a>
+              <div class="wrapper-rating">
+                <h3 class="title-rating">Магазин меблів для дому «KROVATO»</h3>
+                <div class="rating-icon">
+                  <p class="rating">5.0</p>
+                  <svg width="120" height="24">
+                    <use href="./images/sprite.svg#stars"></use>
+                  </svg>
+                </div>
+                <p class="count-rating">Базовано на відгуках: 269</p>
+              </div>
+            </div>
+            <button type="button" class="button write-review">
+              <svg class="icon-review" width="24" height="24">
+                <use href="./images/sprite.svg#write-review"></use>
+              </svg>
+              Написати відгук</button
+            ><a href="#" class="all-reviews">
+              <svg class="icon-small icon-reviews">
+                <use href="./images/sprite.svg#all-reviews"></use>
+              </svg>
+              Всі відгуки</a
+            >
+          </div>
+          <ul class="list list-reviews">
+            <li class="item-reviews">
+              <div class="name-date">
+                <button type="button" class="button-avatar">
+                  <svg class="icon-avatar">
+                    <use href="./images/sprite.svg#avatar"></use>
+                  </svg>
+                </button>
+                <div>
+                  <p class="name-reviews">Іван Стедниця</p>
+                  <svg width="120" height="24" class="icon-stars">
+                    <use href="./images/sprite.svg#stars"></use>
+                  </svg>
+                </div>
+                <p class="date-reviews">25.01.2022</p>
+              </div>
+              <p class="descr-reviews">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+                nemo fugit adipisci eligendi numquam, labore, doloremque error
+                ex nihil voluptatibus non vero eveniet laudantium possimus
+                voluptates unde, rem ratione dicta! Velit ad officiis soluta
+                quae labore. Minima veniam, quis cumque neque ea harum, suscipit
+                perspiciatis est aspernatur, libero quas similique! Ipsa placeat
+                deserunt laborum ducimus, repellat fugiat consequatur ipsam amet
+                dicta in voluptate enim quod expedita consequuntur eum corporis
+                porro doloribus obcaecati cumque, nobis explicabo. Nihil
+                accusantium aspernatur placeat, ullam molestiae laudantium magni
+                ut fugiat! Odio quae, cumque soluta, enim, sunt debitis
+                dignissimos mollitia voluptatibus beatae architecto quasi.
+                Cupiditate laboriosam voluptates nam aspernatur id. Quod itaque
+                rerum repellendus, inventore impedit fugit et officiis odio
+                illum. Iure corporis officiis laboriosam corrupti, velit vitae
+                ut doloremque, itaque eum sit reprehenderit! Deleniti ea,
+                cupiditate delectus ipsum harum quisquam animi aspernatur quod,
+                recusandae incidunt accusamus beatae repellendus esse obcaecati
+                officia dolores voluptatibus reiciendis nihil dolorum voluptatum
+                voluptate vitae corporis suscipit. Modi nobis corrupti facere
+                unde error tenetur consequatur. Rerum aperiam similique beatae
+                dolorum repellendus voluptates pariatur vel. Sed reiciendis
+                fugit laborum possimus ab optio voluptas aperiam labore. A
+                eveniet mollitia, ducimus voluptatibus voluptate hic molestiae
+                esse perferendis reiciendis consectetur, numquam iure
+                recusandae! Quos, numquam!
+              </p>
+              <a href="#" class="link-reviews">
+                <img
+                  src="./images/last-reviews/img-tovar.png"
+                  alt="товар"
+                  width="50"
+                  height="50"
+                />
+                Диван Orange-Line Родео SF ...</a
+              >
+            </li>
+            <li class="item-reviews">
+              <div class="name-date">
+                <button type="button" class="button-avatar">
+                  <svg class="icon-avatar">
+                    <use href="./images/sprite.svg#avatar"></use>
+                  </svg>
+                </button>
+                <div>
+                  <p class="name-reviews">Іван Стедниця</p>
+                  <svg width="120" height="24" class="icon-stars">
+                    <use href="./images/sprite.svg#stars"></use>
+                  </svg>
+                </div>
+                <p class="date-reviews">25.01.2022</p>
+              </div>
+              <p class="descr-reviews">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus tenetur, explicabo quia deleniti esse ullam ea omnis
+                debitis? Corrupti animi eveniet itaque distinctio! Cumque, unde?
+                In quisquam repellat voluptatibus quaerat, odio eos. Nostrum in
+                ratione delectus excepturi ad autem. Vero error perspiciatis
+                quae consequuntur. Quia libero consectetur cumque vero vel
+                obcaecati atque porro facilis nobis dolore quae corporis
+                necessitatibus, excepturi unde quaerat, ipsum error hic
+                veritatis neque, molestiae velit eligendi? Alias officiis harum
+                est hic officia vitae corporis minima aperiam saepe cumque,
+                ipsum perspiciatis quod unde nostrum deserunt tempora laboriosam
+                dolores vel reprehenderit dolorum nihil. Eius perferendis
+                dolores, cupiditate ipsa veniam, ex neque quisquam quidem nemo
+                modi fuga esse illo odit laborum earum. Asperiores cupiditate
+                deserunt magni sint itaque rerum excepturi fuga in iste ut
+                possimus porro vitae placeat nesciunt hic et ab incidunt facere
+                ullam, sit eaque, delectus dolorem quo ipsum! Labore unde nam
+                maxime! Voluptatibus placeat at culpa. Nisi recusandae a vero
+                placeat nobis quibusdam reprehenderit ea eius! Vero incidunt
+                pariatur aliquam voluptates fugit voluptatibus explicabo
+                laboriosam iusto esse, perferendis recusandae inventore iure
+                necessitatibus nulla velit totam soluta facere ea quas! Tempora
+                libero earum ducimus, illo a inventore quod cumque assumenda,
+                numquam et eveniet, asperiores dicta eum! Voluptatem.
+              </p>
+              <a href="#" class="link-reviews">
+                <img
+                  src="./images/last-reviews/img-tovar.png"
+                  alt="товар"
+                  width="50"
+                  height="50"
+                />
+                Диван Orange-Line Родео SF ...</a
+              >
+            </li>
+          </ul>
+          <svg class="icon-mob">
+            <use href="./images/sprite.svg#points-shares-mob"></use>
+          </svg>
+        </div>
+      </section>
+      <!-- СВІЖІ СТАТТІ ТА ОСТАННІ НОВИНИ  -->
+      <section class="section articles-news">
+        <div class="container">
+          <div class="title-wrapper">
+            <h2 class="section-title">Свіжі статті та останні новини</h2>
+            <a href="#" class="read-blog"
+              >Читати блог
+              <svg class="icon-small">
+                <use href="./images/sprite.svg#arrowview-all"></use>
+              </svg>
+            </a>
+            <div class="wrapper-arrow">
+              <button type="button" class="button-news">
+                <svg width="60" height="60">
+                  <use href="./images/sprite.svg#arrow-left"></use>
+                </svg>
+              </button>
+              <button type="button" class="button-news">
+                <svg width="60" height="60">
+                  <use href="./images/sprite.svg#arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <ul class="list list-articles">
+            <li class="item-articles">
+              <div class="wrapper-img">
+                <img
+                  src="./images/articles-news/chairs-living-room.jpg"
+                  alt="стільці для вітальні"
+                  width="410"
+                  height="270"
+                />
+              </div>
+              <div class="title-detail">
+                <p class="news-title added-height">
+                  Стільці для вітальні. Як правильно вибрати?
+                </p>
+                <a href="#" class="link-detail"
+                  >Детальніше
+                  <svg class="icon-small">
+                    <use href="./images/sprite.svg#arrowview-all"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="item-articles">
+              <div class="wrapper-img">
+                <img
+                  src="./images/articles-news/kitchen.jpg"
+                  alt="стільці і кухонний куточок"
+                  width="410"
+                  height="270"
+                />
+              </div>
+              <div class="title-detail">
+                <p class="news-title">
+                  Що краще вибрати для кухні – стільці чи кухонний куточок?
+                </p>
+                <a href="#" class="link-detail"
+                  >Детальніше
+                  <svg class="icon-small">
+                    <use href="./images/sprite.svg#arrowview-all"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="item-articles">
+              <div class="wrapper-img">
+                <img
+                  src="./images/articles-news/furniture-living-room.jpg"
+                  alt="меблі для вітальні"
+                  width="410"
+                  height="270"
+                />
+              </div>
+              <div class="title-detail">
+                <p class="news-title">
+                  Оформлення вітальні. Які м'які меблі краще вибрати?
+                </p>
+                <a href="#" class="link-detail"
+                  >Детальніше
+                  <svg class="icon-small">
+                    <use href="./images/sprite.svg#arrowview-all"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+          <a href="#" class="read-blog-mobile">
+            <svg class="icon-small">
+              <use href="./images/sprite.svg#arrow-view-all-white"></use>
+            </svg>
+            Читати блог
+          </a>
+        </div>
+      </section>
+      <!-- СЕО-ПЕРЕВАГИ -->
+      <section class="section about-benefit">
+        <div class="container">
           <section class="about">
+            <h2 class="visually-hidden">Про нас</h2>
             <p class="after-title">
               KROVATO - коли потрібні якісні меблі за доступною ціною!
             </p>
             <p class="about-text">
-             <span class="indent-down"> Якщо в пошуковий рядок браузера ввести запит: «Куплю ліжко, шафу,
-              диван», система видасть сотні продавців, що спеціалізуються з
-              продажу цього товару. Але далеко не всі магазини та сайти в
-              інтернеті можуть запропонувати такий самий різноманітний
-              асортимент, як наша компанія. Та й з нашими цінами конкурувати
-              можуть мало хто. Адже товар ми отримуємо безпосередньо від
-              виробників, не переплачуючи за послуги посередників. До того ж,
-              продажі ми ведемо як онлайн, так і в салоні, при цьому ціна на
-              асортимент онлайн та офлайн - однакова.</span>
-                               Ми співпрацюємо тільки з найкращими вітчизняними та зарубіжними
+              <span class="indent-down">
+                Якщо в пошуковий рядок браузера ввести запит: «Куплю ліжко,
+                шафу, диван», система видасть сотні продавців, що
+                спеціалізуються з продажу цього товару. Але далеко не всі
+                магазини та сайти в інтернеті можуть запропонувати такий самий
+                різноманітний асортимент, як наша компанія. Та й з нашими цінами
+                конкурувати можуть мало хто. Адже товар ми отримуємо
+                безпосередньо від виробників, не переплачуючи за послуги
+                посередників. До того ж, продажі ми ведемо як онлайн, так і в
+                салоні, при цьому ціна на асортимент онлайн та офлайн -
+                однакова.</span
+              >
+              Ми співпрацюємо тільки з найкращими вітчизняними та зарубіжними
               фабриками та компаніями, які отримали визнання покупців та
               експертів меблевої справи. Для нас важливо, щоб товар, який ми
               продаємо, відповідав міжнародним стандартам якості, був із
@@ -1748,15 +1770,15 @@
               класичному та модерному стилі, лінійки для оформлення житла в дусі
               романтики або скандинавського лаконізму. ..
             </p>
-           <div class="about-shadow">
-          <button type="button" class="button-shadow">
-            <svg class="icon-shadow">
-              <use href="./images/sprite.svg#icon-arrow-down(weight)"></use>
-            </svg>
-          </button>
-           </div>
+            <div class="about-shadow">
+              <button type="button" class="button-shadow">
+                <svg class="icon-shadow">
+                  <use href="./images/sprite.svg#icon-arrow-down(weight)"></use>
+                </svg>
+              </button>
+            </div>
           </section>
-           <section class="benefits">
+          <section class="benefits">
             <h2 class="visually-hidden">Переваги</h2>
             <ul class="list list-benefits">
               <li class="item-benefits">
@@ -1784,10 +1806,10 @@
                 <p class="benefits-text last-text">Знижки клієнтам</p>
               </li>
             </ul>
-          </section> 
+          </section>
         </div>
-      </section>   -->
-    <!-- </main>   -->
+      </section>
+    </main>
     <!-- ФУТЕР -->
     <footer class="footer">
       <div class="container footer-container">
